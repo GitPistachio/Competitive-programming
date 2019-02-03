@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Spoj
+class TEST
 {
   public static void main(String[] args)
   {

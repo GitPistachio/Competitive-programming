@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Spoj
+class FCTRL
 {
   public static int Z(int n)
   {

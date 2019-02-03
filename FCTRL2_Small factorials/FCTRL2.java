@@ -3,7 +3,7 @@
 import java.util.Scanner;
 import java.math.BigInteger;
 
-class Spoj
+class FCTRL2
 {
   public static BigInteger factorial(int n)
   {

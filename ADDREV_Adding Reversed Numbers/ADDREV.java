@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Spoj
+class ADDREV
 {
   public static void main(String[] args)
   {
