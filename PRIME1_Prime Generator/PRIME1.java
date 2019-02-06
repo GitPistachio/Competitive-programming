@@ -1,3 +1,11 @@
+/*
+* Project name : SPOJ: Prime Generator
+* Author       : Wojciech Raszka
+* Date created : 2019-??-??
+* Description  :
+* Status       : Accepted (???)
+*/
+
 import java.util.Scanner;
 
 class PRIME1{

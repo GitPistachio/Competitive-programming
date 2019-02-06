@@ -1,3 +1,9 @@
+# Project name : SPOJ: Adding reversed numbers
+# Author       : Wojciech Raszka
+# Date created : 2019-02-06
+# Description  :
+# Status       : Accepted (???)
+
 library('stringi')
 
 f <- file('stdin', open='r')
