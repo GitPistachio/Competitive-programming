@@ -1,3 +1,10 @@
+# Project name : SPOJ: Sum of digits
+# Author       : Wojciech Raszka
+# Date created : 2019-??-??
+# Description  :
+# Status       : Accepted ()
+# Comment      :
+
 no_of_cases = int(input())
 
 for c in range(no_of_cases):

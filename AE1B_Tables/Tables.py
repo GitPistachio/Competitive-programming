@@ -3,6 +3,7 @@
 # Date created : 2019-02-06
 # Description  :
 # Status       : Accepted (23185689)
+# Comment      :
 
 n, k, s = list(map(int, input().split(' ')))
 
