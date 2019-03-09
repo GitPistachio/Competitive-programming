@@ -1,0 +1,36 @@
+/*
+* Project name : SPOJ: SUMSCALC - Sums to calculate
+* Author       : Wojciech Raszka
+* Date created : 2019-02-24
+* Description  :
+* Status       : Accepted (23289730)
+* Comment      :
+*/
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+class SUMSCALC{
+  public static void main(String args[]) throws IOException{
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    int T = Integer.parseInt(br.readLine());
+    long n;
+    long S, S_odd, S_even, S_square, S_cube;
+
+    for (int t = 0; t < T; t++){
+      n = Long.parseLong(br.readLine());
+      S = ((n + 1)*n) >> 1;
+      S_odd = S << 1;
+      S_even = S_odd - n;
+      S_square = 0;
+      S_cube = 0;
+      for (long i = 1; i <= n; i++){
+        S_square += i*i;
+        S_cube += i*i*i;
+      }
+      System.out.println(S + " " + S_odd + " " + S_even + " " + S_square + " " + S_cube);
+    }
+  }
+}

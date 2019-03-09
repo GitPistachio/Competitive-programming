@@ -1,0 +1,20 @@
+# Project name : SPOJ: SMPSEQ9 - Fun with Sequences (Act 7)
+# Author       : Wojciech Raszka
+# Date created : 2019-02-24
+# Description  :
+# Status       : Accepted (23291889)
+# Comment      :
+
+f <- file('stdin', open='r')
+
+n <- as.integer(readLines(f, n=1))
+S <- as.integer(unlist(strsplit(readLines(f, n=1), ' ')))
+
+m <- as.integer(readLines(f, n=1))
+Q <- as.integer(unlist(strsplit(readLines(f, n=1), ' ')))
+
+if (sum(S)/n > sum(Q)/m){
+  cat(S, file=stdout(), fill=TRUE, sep=" ")
+} else {
+  cat(Q, file=stdout(), fill=TRUE, sep=" ")
+}
