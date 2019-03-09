@@ -2,8 +2,8 @@
 # Author       : Wojciech Raszka
 # Date created : 2019-02-09
 # Description  :
-# Status       : Time limit exceeded
-# Comment      : O(N Log N)
+# Status       : Accepted (23369275)
+# Comment      : O(N Log N). Accepted using PYPY.
 
 import sys
 
@@ -22,11 +22,11 @@ class Point:
     def __eq__(self, p):
         return self.x == p.x and self.y == p.y
 
-n = int(input())
+n = int(raw_input())
 
 points = []
-for i in range(n):
-    x, y = input().split()
+for i in xrange(n):
+    x, y = raw_input().split()
     points.append(Point(i, int(x), int(y)))
 
 points.sort(key=lambda x: x.x)
@@ -37,7 +37,7 @@ h = sys.float_info.max
 j = 0
 a = None
 b = None
-for i in range(1, n):
+for i in xrange(1, n):
     while j < i and points[i].x - points[j].x > h:
         if points[j] in box:
             box.remove(points[j])
@@ -55,4 +55,4 @@ for i in range(1, n):
 if a > b:
     a, b = b, a
 
-print(a, b, '%.6f' % round(h,6))
+print(str(a) + ' ' + str(b) + ' %.6f' % round(h,6))
