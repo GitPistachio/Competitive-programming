@@ -4,6 +4,7 @@
 * Date created : 2019-02-23
 * Description  :
 * Status       : Accepted (23286557)
+* Tags         : java, console pattern, diamond
 * Comment      :
 */
 
