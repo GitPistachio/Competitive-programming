@@ -1,3 +1,12 @@
+# Project name : SPOJ: AE00 - Rectangles
+# Author       : Wojciech Raszka
+# Date created :
+# Description  :
+# Status       : Accepted (???)
+# Tags         : R
+# Comment      :
+
+
 f <- file('stdin', open='r')
 
 N = as.integer(readLines(f, n=1))
