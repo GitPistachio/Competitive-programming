@@ -3,6 +3,7 @@
 # Date created : 2019-03-08
 # Description  :
 # Status       : Accepted (23367652)
+# Tags         : python, sum of odd numbers
 # Comment      :
 
 a, b = map(int, input().split())

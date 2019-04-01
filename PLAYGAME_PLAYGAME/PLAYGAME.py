@@ -3,6 +3,7 @@
 # Date created : 2019-02-17
 # Description  :
 # Status       : Accepted (23250688)
+# Tags         : python
 # Comment      : f <=> g
 
 T = int(input())
