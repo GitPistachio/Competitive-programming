@@ -2,6 +2,7 @@
 
 # Project name : SPOJ: LASTDIG - The last digit
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-04-01
 # Description  :
 # Status       : Accepted (23545257)
