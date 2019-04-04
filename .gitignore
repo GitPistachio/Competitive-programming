@@ -2,3 +2,4 @@
 *.class
 *.RData
 OTHER/
+/__*/
