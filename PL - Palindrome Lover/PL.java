@@ -1,6 +1,7 @@
 /*
 * Project name : SPOJ: PL - Palindrome Lover
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-03-23
 * Description  :
 * Status       : Accepted (23477502)

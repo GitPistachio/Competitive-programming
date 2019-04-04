@@ -1,3 +1,14 @@
+/*
+* Project name : SPOJ: FCTRL - Factorial
+* Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
+* Date created : 2019-??-??
+* Description  :
+* Status       :
+* Tags         : java, math,factorial
+* Comment      :
+*/
+
 import java.util.Scanner;
 
 class FCTRL

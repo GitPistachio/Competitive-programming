@@ -1,23 +1,25 @@
 /*
-* Project name : SPOJ: GCPC11F - Diary
+* Project name : SPOJ: FANCY - FANCY NUMBERS
 * Author       : Wojciech Raszka
-* E-mali       : gitpistachio@gmail.com
-* Date created : 2019-03-19
+* E-mail       : gitpistachio@gmail.com
+* Date created : 2019-04-04
 * Description  :
-* Status       : Accepted (23450239)
-* Tags         : java, message encryption
+* Status       : Accepted (23568807)
+* Tags         : java, math, probability theory, combinatorics
 * Comment      :
 */
 
+import java.lang.StringBuilder;
 import java.io.DataInputStream;
 import java.io.IOException;
 
-class DCRYPT{
+final class FANCY{
   static final class Reader{
-      final private int BUFFER_SIZE = 1 << 16;
+      final private int BUFFER_SIZE = 1 << 18;
       private DataInputStream dis;
       private byte[] buffer;
       private int bufferPointer, bytesRead;
+      private boolean EOF = false;
 
       public Reader(){
           dis = new DataInputStream(System.in);
@@ -71,16 +73,33 @@ class DCRYPT{
           return ret;
       }
 
+      public int nextSolve() throws IOException{
+        int no_of_combinations = 1;
+        byte p = read(), c;
+
+        while ((c = read()) >= '0'){
+          if (p == c)
+            no_of_combinations = no_of_combinations << 1;
+          else
+            p = c;
+        }
+
+        return no_of_combinations;
+      }
+
       private void fillBuffer() throws IOException{
-          bytesRead = dis.read(buffer, bufferPointer = 0, BUFFER_SIZE);
-          if (bytesRead == -1)
-              buffer[0] = -1;
+        bytesRead = dis.read(buffer, bufferPointer = 0, BUFFER_SIZE);
+        if (bytesRead == -1){
+          buffer[0] = -1;
+          EOF = true;
+        }
       }
 
       private byte read() throws IOException{
-          if (bufferPointer == bytesRead)
-              fillBuffer();
-          return buffer[bufferPointer++];
+        if (EOF) return -1;
+        if (bufferPointer == bytesRead)
+            fillBuffer();
+        return buffer[bufferPointer++];
       }
 
       public void close() throws IOException{
@@ -92,52 +111,13 @@ class DCRYPT{
 
   public static void main(String args[]) throws IOException{
     Reader r = new Reader();
+    StringBuilder sb =  new StringBuilder();
     int T = r.nextUnsignedInt();
-    byte[] entry;
-    int i, key, d, t;
-    int[] alphabet;
-    boolean is_possible;
 
     while (T-- > 0){
-      entry = new byte[1001];
-      alphabet = new int [26];
-
-      r.readLine(entry);
-
-      d = -1;
-      i = 0;
-      is_possible = true;
-      while (entry[i] != 0){
-        if (entry[i] >= 'A' && entry[i] <= 'Z'){
-          t = entry[i] - 'A';
-          alphabet[t]++;
-
-          if (d < 0){
-            d = t;
-          } else if (alphabet[t] > alphabet[d] || t == d){
-            d = t;
-            is_possible = true;
-          } else if (t != d && alphabet[t] == alphabet[d]){
-            is_possible = false;
-          }
-        }
-        i++;
-      }
-
-      key = (30 - d) % 26;
-      i = 0;
-      while (entry[i] != 0){
-        if (entry[i] >= 'A' && entry[i] <= 'Z'){
-          entry[i] = (byte) (65 + (entry[i] - 65 + key) % 26);
-        }
-        i++;
-      }
-
-      if (is_possible){
-        System.out.println((26 - key) % 26 + " " + (new String(entry, 0, i)));
-      } else {
-        System.out.println("NOT POSSIBLE");
-      }
+      sb.append(r.nextSolve());
+      sb.append('\n');
     }
+    System.out.print(sb.toString());
   }
 }
