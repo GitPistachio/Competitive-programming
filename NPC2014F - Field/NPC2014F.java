@@ -1,6 +1,7 @@
 /*
 * Project name : SPOJ: NPC2014F - Field
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-03-22
 * Description  :
 * Status       : Accepted (23470521)
