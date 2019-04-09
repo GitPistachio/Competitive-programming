@@ -1,8 +1,10 @@
-# Project name : SPOJ: Closest point problem
+# Project name : SPOJ: CLOPPAIR - Closest point problem
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-02-09
 # Description  :
 # Status       : Accepted (23369275)
+# Tags         : python
 # Comment      : O(N Log N). Accepted using PYPY.
 
 import sys
