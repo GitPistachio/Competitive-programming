@@ -4,9 +4,9 @@
 * E-mail       : gitpistachio@gmail.com
 * Date created : 2019-04-09
 * Description  :
-* Status       : Accepted (23607478)
+* Status       : Accepted (23607897)
 * Tags         : c
-* Comment      : 24 characters
+* Comment      : 21 characters
 */
 
-main(){puts("Success");}
+main(){printf("%m");}
