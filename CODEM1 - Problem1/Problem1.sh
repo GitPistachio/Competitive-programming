@@ -2,9 +2,11 @@
 
 # Project name : SPOJ: CODEM1 - Problem1
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-03-09
 # Description  :
 # Status       : Accepted (23370367)
+# Tags         : bash
 # Comment      : The question should be: Is it possible to determine if sum of given three numbers is positive, negative or 0
 
 function NVL {

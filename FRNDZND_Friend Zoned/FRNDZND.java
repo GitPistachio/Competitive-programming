@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: FRNDZND - Friend Zoned
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-20
 * Description  :
 * Status       : Accepted (23268603)
+* Tags         : java
 * Comment      :
 */
 

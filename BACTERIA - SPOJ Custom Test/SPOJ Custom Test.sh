@@ -5,6 +5,7 @@
 # Date created : 2019-03-11
 # Description  :
 # Status       : Accepted (23386957)
+# Tags         : bash
 # Comment      :
 
 echo Let\'s party

@@ -3,6 +3,7 @@
 # Date created : 2019-02-20
 # Description  :
 # Status       : Accepted (23268725)
+# Tags         : python
 # Comment      :
 
 def substraction(n):

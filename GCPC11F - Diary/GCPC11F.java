@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: GCPC11F - Diary
 * Author       : Wojciech Raszka
+* E-mali       : gitpistachio@gmail.com
 * Date created : 2019-03-19
 * Description  :
 * Status       : Accepted (23450239)
+* Tags         : java, message encryption
 * Comment      :
 */
 

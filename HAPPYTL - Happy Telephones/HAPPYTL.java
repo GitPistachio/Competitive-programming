@@ -4,7 +4,7 @@
 * Date created : 2019-03-23
 * Description  :
 * Status       : Accepted (23479462)
-* Tags         : java, fast I/O, overlapping interval
+* Tags         : java, fast I/O, overlapping intervals
 * Comment      :
 */
 

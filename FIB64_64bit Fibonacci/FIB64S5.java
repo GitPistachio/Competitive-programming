@@ -1,9 +1,11 @@
 /*
-* Project name : SPOJ: 64bit Fibonacci
+* Project name : SPOJ: FIB64 - 64bit Fibonacci
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-10
 * Description  :
 * Status       : Accepted (23204186)
+* Tags         : java, math, fibonacci sequence
 * Comment      : 5000
 */
 

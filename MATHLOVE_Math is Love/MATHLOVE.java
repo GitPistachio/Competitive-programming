@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: MATHLOVE - Math is Love
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-16
 * Description  :
 * Status       : Accepted (23245672)
+* Tags         : java, perfect square
 * Comment      :
 */
 

@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: Friends of Friends
 * Author       : Wojciech Raszka
+* E-amil       : gitpistachio@gmail.com
 * Date created : 2019-02-07
 * Description  :
 * Status       : Accepted (23191581)
+* Tags         : java
 * Comment      :
 */
 

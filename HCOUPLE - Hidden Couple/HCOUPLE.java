@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: HCOUPLE - Hidden Couple
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-23
 * Description  :
 * Status       : Accepted (23286666)
+* Tags         : java
 * Comment      :
 */
 
