@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: SPTTRN2 - Straight Line Spiral Pattern (Act 2)
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-24
 * Description  :
 * Status       : Accepted (23292144)
+* Tags         : java, console pattern, spiral
 * Comment      : Transposition of SPTTRN1
 */
 

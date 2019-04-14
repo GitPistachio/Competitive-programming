@@ -1,5 +1,6 @@
 # Project name : SPOJ: TAP2015H - Hugo s homework
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-02-20
 # Description  :
 # Status       : Accepted (23268725)

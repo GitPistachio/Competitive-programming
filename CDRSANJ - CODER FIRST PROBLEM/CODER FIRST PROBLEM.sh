@@ -2,6 +2,7 @@
 
 # Project name : SPOJ: CDRSANJ - CODER FIRST PROBLEM
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-04-02
 # Description  :
 # Status       : Accepted (23554223)
