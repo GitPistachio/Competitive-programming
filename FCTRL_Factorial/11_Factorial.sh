@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Project name : SPOJ: FCTRL - Factorial
+# Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
+# Date created :
+# Description  :
+# Status       : Accepted (23571513)
+# Tags         : bash, math, factorial, noumber of zeros at the end of an number, iteger sequence A027868 (OEIS)
+# Comment      :
+
 read T
 for  ((i=1; i<=$T; i++))
 do
