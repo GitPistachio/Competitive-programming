@@ -1,6 +1,7 @@
 /*
 * Project name : SPOJ: FINDPRM - Finding Primes
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-03-16
 * Description  :
 * Status       : Accepted (23427021)

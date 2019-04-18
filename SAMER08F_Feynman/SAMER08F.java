@@ -1,9 +1,11 @@
 /*
-* Project name : SPOJ: Feynman
+* Project name : SPOJ: SAMER08F - Feynman
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-10
 * Description  :
 * Status       : Accepted (23206019)
+* Tags         : java, math, integer sequence A000330 (OEIS)
 * Comment      : It's sum of squares
 */
 

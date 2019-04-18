@@ -1,8 +1,10 @@
 # Project name : SPOJ: FIBEZ - Easy Fibonacci
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-03-07
 # Description  :
 # Status       : Accepted (23369217)
+# Tags         : python, fibonacci sequence
 # Comment      : PYPY 2.7
 
 from sys import stdin, stdout

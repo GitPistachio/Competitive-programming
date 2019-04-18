@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: Counting triangles
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-12
 * Description  :
 * Status       : Accepted (23218796)
+* Tags         : java
 * Comment      : There is a direct formula n*(n + 2)*(2*n + 1)/8
 */
 

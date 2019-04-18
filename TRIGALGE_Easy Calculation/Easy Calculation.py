@@ -1,8 +1,10 @@
 # Project name : SPOJ: Easy calculation
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-02-08
 # Description  :
 # Status       : Accepted (23196497)
+# Tags         : python, math, Newton's method, root-finding algorithm
 # Comment      : I used Newton methos for finding root of f(x) = Ax+Bsin(x) - C for x_0 = C/A due to Ax - B - C <= f(x) <= Ax + B - C => (C-B)/A <= x_0 <= (C+B)/A
 
 from math import sin, cos

@@ -6,9 +6,7 @@
 * Description  :
 * Status       : Accepted (23607478)
 * Tags         : c
-* Comment      : 24 character
+* Comment      : 24 characters
 */
-
-
 
 main(){puts("Success");}
