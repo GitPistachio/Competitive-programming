@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: UFPR14D - Inquire
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-16
 * Description  :
 * Status       : Accepted (23241700)
+* Tags         : java, prefix sum
 * Comment      :
 */
 
