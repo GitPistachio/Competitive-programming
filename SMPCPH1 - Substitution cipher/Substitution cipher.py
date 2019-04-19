@@ -1,11 +1,14 @@
 # Project name : SPOJ: SMPCPH1 - Substitution cipher
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-02-24
 # Description  :
 # Status       : Accepted (23290652)
+# Tags         : python, cryptography, substitution cipher
 # Comment      :
 
 n = int(input())
+#preparing substitution aplhabet
 cypher = input()[::-1]
 cypher_key = []
 for i in range(n):
