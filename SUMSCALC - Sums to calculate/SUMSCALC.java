@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: SUMSCALC - Sums to calculate
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-24
 * Description  :
 * Status       : Accepted (23289730)
+* Tags         : java, fast I/O, sum of odd number A005408 (OEIS), sum of even numbers A005843 (OEIS), sum of squares A000290 (OEIS), sum of cubes A000578 (OEIS)
 * Comment      :
 */
 
