@@ -1,5 +1,6 @@
 # Project name : SPOJ: MESSAGEC - Message Relay
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-04-01
 # Description  :
 # Status       : Accepted (23544204)

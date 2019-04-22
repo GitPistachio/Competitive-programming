@@ -1,8 +1,10 @@
-# Project name : SPOJ: Candy III
+# Project name : SPOJ: CANDY3 - Candy III
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-02-07
 # Description  :
 # Status       : Accepted (23191601)
+# Tags         : python
 # Comment      :
 
 

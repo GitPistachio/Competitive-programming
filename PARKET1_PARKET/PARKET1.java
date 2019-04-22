@@ -1,9 +1,11 @@
 /*
-* Project name : SPOJ: Parkiet
+* Project name : SPOJ: PARKET1 - Parkiet
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-11
 * Description  :
 * Status       : Accepted (23212744)
+* Tags         : java
 * Comment      : Solve equation L*D = R + B and (l-2)*(D-2) = B
 */
 

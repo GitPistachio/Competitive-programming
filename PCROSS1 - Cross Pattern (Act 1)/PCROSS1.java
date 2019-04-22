@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: PCROSS1 - Cross Pattern (Act 1)
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-03-13
 * Description  :
 * Status       : Accepted (23403400)
+* Tags         : java, console pattern
 * Comment      :
 */
 
