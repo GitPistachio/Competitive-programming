@@ -1,9 +1,11 @@
 /*
-* Project name : SPOJ: Prime Generator
+* Project name : SPOJ: INVCNT - Inversion Count
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-08
 * Description  :
 * Status       : Accepted (23196092)
+* Tags         : java, sorting, merge sort, inversion count
 * Comment      :
 */
 

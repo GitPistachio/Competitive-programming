@@ -1,8 +1,10 @@
 # Project name : SPOJ: RPNEVAL - Evaluate simple RPN expression
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-03-13
 # Description  :
 # Status       : Accepted (23402948)
+# Tags         : python, RPN, reverse polish notation
 # Comment      :
 
 import sys

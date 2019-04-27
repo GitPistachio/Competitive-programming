@@ -1,8 +1,10 @@
 # Project name : SPOJ: EDS - Electronic Document Security
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmial.com
 # Date created : 2019-03-07
 # Description  :
 # Status       : Accepted (23362654)
+# Tags         : python
 # Comment      :
 
 def currentACL(log):
