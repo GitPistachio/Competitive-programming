@@ -1,10 +1,11 @@
 # Project name : SPOJ: BOKAM143SOU - Checking cubes.
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-03-22
 # Description  :
 # Status       : Accepted (23476698)
 # Tags         : python, binary search, gcd, greatest common divisor
-# Comment      : Problem setter gave incorrect input. There is less test than T.
+# Comment      : Problem setter gave incorrect input. There is less test than T test cases.
 
 def gcd(a, b):
     while b:

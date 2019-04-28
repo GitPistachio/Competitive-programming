@@ -4,7 +4,7 @@
 # Date created : 2019-04-14
 # Description  :
 # Status       : Accepted (23634195)
-# Tags         : python, math, average
+# Tags         : python, math, arithmetic average
 # Comment      :
 
 T = int(raw_input())

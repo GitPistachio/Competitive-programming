@@ -1,8 +1,10 @@
 # Project name : SPOJ: MEANSTRIC - Tricky Means
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-02-24
 # Description  :
 # Status       : Accepted (23289108)
+# Tags         : python, math, arithmetic mean, harmonic mean, geometric mean
 # Comment      :
 
 from math import log, exp

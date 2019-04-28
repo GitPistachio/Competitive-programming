@@ -1,10 +1,12 @@
 /*
 * Project name : SPOJ: ZCR - Zen And His Crush
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-21
 * Description  :
 * Status       : Accepted (23279078)
-* Comment      : O(n*k) See: P(n, k) = P(n-1, k)*(1 - p_n) + P(n-1,k-1)*p_n
+* Tags         : java, math, probability theory, dynamic-programming, probability of k heads from n simultaneously tossed biased coins
+* Comment      : O(n*k) See: P(n, k) = P(n - 1, k)*(1 - p_n) + P(n - 1,k - 1)*p_n
 */
 
 import java.io.BufferedReader;
