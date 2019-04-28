@@ -1,6 +1,7 @@
 /*
 * Project name : SPOJ: QWERTY03 - Java counting
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-03-29
 * Description  :
 * Status       : Accepted (23522982)
