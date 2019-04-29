@@ -5,8 +5,8 @@
 * Date created : 2019-04-24
 * Description  :
 * Status       : Accepted (23681127, 23682129, 23685592, 23690652)
-* Tags         : java, fast I/O, sorting, bubble sort, optimized bubble sort, insertion sort, selection sort, heap sort, merge sort, median of three quick sort, hybrid introspective quick sort, optimized hybrid introspective quick sort
-* Comment      : builtin sorting function 0.3s, bubble sort TLE, optimized bubble sort TLE, insertion sort TLE, selection sort TLE, heap sort 0.3, merge sort 0.33, median of three quick sort TLE, hybrid introspective quick sort 0.56s, optimized hybrid introspective quick sort 0.31s
+* Tags         : java, fast I/O, sorting, bubble sort, optimized bubble sort, insertion sort, selection sort, heap sort, merge sort, median of three quick sort, hybrid introspective quick sort, optimized hybrid introspective quick sort, gapped insertion sort, library sort, floor binary search with gaps
+* Comment      : input data must be nearly sort thus algorithm like quick sort, library sort etc. work terrible
 */
 
 import java.lang.StringBuilder;
@@ -16,6 +16,17 @@ import java.util.Arrays;
 import java.lang.Math;
 
 final class TSORT{
+  final static int NA = -1;
+
+  public static void displayArray(int A[]){
+    int n = A.length;
+    for (int i  = 0; i < n; i++){
+      System.out.print(A[i]);
+      System.out.print(' ');
+    }
+    System.out.print('\n');
+  }
+
   static final class Reader{
       final private int BUFFER_SIZE = 1 << 16;
       private DataInputStream dis;
@@ -297,8 +308,8 @@ final class TSORT{
       return false;
     } else if (r - l > 8) {
         int i = partition(A, l, r);
-        if (introSort(A, l, i - 1, max_depth - 1)){
-            if (introSort(A, i + 1, r, max_depth - 1)){
+        if (optimizedIntroSort(A, l, i - 1, max_depth - 1)){
+            if (optimizedIntroSort(A, i + 1, r, max_depth - 1)){
               return true;
             } else {
               return false;
@@ -314,10 +325,138 @@ final class TSORT{
     int n = A.length;
     int max_depth = (int)Math.floor(Math.log(n))*2;
 
-    if (introSort(A, 0, n - 1, max_depth)){
+    if (optimizedIntroSort(A, 0, n - 1, max_depth)){
         insertionSort(A);
     }
+  }
 
+  public static int floorGappedBinarySearch(int a, int S[], int l, int r){
+    int m1, m2;
+
+    while (r >= l && S[r] == NA) r--;
+    while (l <= r && S[l] == NA) l++;
+
+
+    while (l < r){
+      m1 = l + (r - l)/2;
+      m2 = m1 + 1;
+      //System.out.println(l + "\t" + r + "\t" + m1 + "\t" + m2);
+      while (m1 >= l && S[m1] == NA) m1--;
+      if (S[m1] < a){
+        if (m1 > l){
+          l = m1;
+        } else {
+          while (m2 <= r && S[m2] == NA) m2++;
+          if (S[m2] > a){
+            return l;
+          } else if (S[m2] == a){
+            while (m2 < r && S[m2 + 1] == a) m2++;
+            return m2;
+          } else {
+            l = m2;
+          }
+        }
+      } else if (S[m1] == a){
+        while (m1 < r && S[m1 + 1] == a) m1++;
+        return m1;
+      } else {
+        if (m1 > l){
+          r = m1;
+        } else {
+          return NA;
+        }
+      }
+    }
+
+    if (l == r && S[l] <= a){
+      return l;
+    } else {
+      return NA;
+    }
+  }
+
+  public static void librarySort(int A[], float epsilon){
+    int n = A.length;
+    int m = (int)((1 + epsilon)*n);
+    int[] S = new int[m];
+
+    for (int i = 0; i < m; i++){
+      S[i] = NA;
+    }
+
+    int prev_len, run_len;
+    int goal = 1;
+    int pos = 0;
+    int ins_pos;
+    int step, sniff_pos;
+    boolean p_reach_n = false;
+
+    run_len = (int)((2 + 2*epsilon)*goal);
+    if (run_len > m){
+      run_len = m;
+    }
+
+    S[run_len - 1] = A[pos++];
+    goal = goal << 1;
+
+    while (pos < n){
+      for (int i = 0; i < goal; i++){
+        ins_pos = floorGappedBinarySearch(A[pos], S, 0, run_len - 1) + 1;
+        if (ins_pos < run_len && S[ins_pos] != NA){
+          sniff_pos = ins_pos + 1;
+          while (S[sniff_pos] != NA) sniff_pos++;
+          if (sniff_pos < run_len){
+            while (sniff_pos > ins_pos){
+              S[sniff_pos] = S[sniff_pos - 1];
+              sniff_pos--;
+            }
+          } else {
+            sniff_pos = --ins_pos - 1;
+            while (S[sniff_pos] != NA) sniff_pos--;
+
+            while (sniff_pos < ins_pos){
+              S[sniff_pos] = S[sniff_pos + 1];
+              sniff_pos++;
+            }
+          }
+        } else if (ins_pos >= run_len) {
+          sniff_pos = --ins_pos - 1;
+          while (S[sniff_pos] != NA) sniff_pos--;
+
+          while (sniff_pos < ins_pos){
+            S[sniff_pos] = S[sniff_pos + 1];
+            sniff_pos++;
+          }
+        }
+
+        S[ins_pos] = A[pos++];
+        if (pos >= n){
+          p_reach_n = true;
+          break;
+        }
+      }
+
+      if (p_reach_n) break;
+
+      prev_len = run_len;
+      run_len = (int)((2 + 2*epsilon)*goal);
+      if (run_len > m){
+        run_len = m;
+      }
+
+      step = run_len/prev_len;
+      for (int k = run_len - 1, i = prev_len - 1; i >= 0; i--, k -= step){
+        S[k] = S[i];
+        S[i] = NA;
+      }
+      goal = goal << 1;
+    }
+
+    for (int i = 0, j = 0; i < run_len && j < n; i++){
+      if (S[i] != NA){
+        A[j++] = S[i];
+      }
+    }
   }
 
   public static void main(String args[]) throws IOException{
@@ -339,7 +478,8 @@ final class TSORT{
     //mergeSort(A, 0, n - 1); //0.33s
     //quickSort(A, 0, n - 1); //TLE
     //hybridIntrospectiveSort(A); //0.56s
-    optimizedHybridIntrospectiveSort(A); //0.31s
+    //optimizedHybridIntrospectiveSort(A); //0.31s
+    librarySort(A, 2); // TLE
 
     for(int i =  0; i < n; i++){
       sb.append(A[i]);
