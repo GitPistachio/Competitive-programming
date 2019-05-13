@@ -1,5 +1,6 @@
 # Project name : SPOJ: JOSWAP - Just One Swap
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-03-24
 # Description  :
 # Status       : Accepted (23479022)
