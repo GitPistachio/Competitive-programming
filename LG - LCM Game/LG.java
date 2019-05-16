@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: LG - LCM Game
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-23
 * Description  :
 * Status       : Accepted (23286893)
+* Tags         : java, GCD, greatest common divisor, LCM, least common multiple
 * Comment      :
 */
 
