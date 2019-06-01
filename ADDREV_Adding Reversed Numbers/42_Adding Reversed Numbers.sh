@@ -1,4 +1,13 @@
-#This is to slow for SPOJ but works on Ideone.com nicely.
+#!/bin/bash
+
+# Project name : SPOJ: ADDREV - Adding Reversed Numbers
+# Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
+# Date created :
+# Description  :
+# Status       : Time limit exceeded
+# Tags         : bass
+# Comment      : This is to slow for SPOJ but works on Ideone.com nicely.
 
 read no_of_cases
 
