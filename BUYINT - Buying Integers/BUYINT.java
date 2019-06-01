@@ -1,6 +1,7 @@
 /*
 * Project name : SPOJ: BUYINT - Buying Integers
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-03-24
 * Description  :
 * Status       : Accepted (23482546)

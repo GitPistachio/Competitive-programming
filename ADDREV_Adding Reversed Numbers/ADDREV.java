@@ -1,3 +1,15 @@
+/*
+* Project name : SPOJ: ADDREV - Adding Reversed Numbers
+* Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
+* Date created :
+* Description  :
+* Status       : Accepted (???)
+* Tags         : java
+* Comment      :
+*/
+
+
 import java.util.Scanner;
 
 class ADDREV

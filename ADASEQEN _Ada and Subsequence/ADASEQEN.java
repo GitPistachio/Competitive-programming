@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: ADASEQEN - Ada and Subsequence
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-17
 * Description  :
 * Status       : Accepted (23247921)
+* Tags         : java, longest common subsequence, dynamic programming
 * Comment      : Longest common subsequence with weights
 */
 

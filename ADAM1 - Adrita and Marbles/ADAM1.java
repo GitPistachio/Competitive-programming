@@ -1,6 +1,7 @@
 /*
 * Project name : SPOJ: ADAM1 - Adrita and Marbles
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-03-21
 * Description  :
 * Status       : Accepted (23462619)

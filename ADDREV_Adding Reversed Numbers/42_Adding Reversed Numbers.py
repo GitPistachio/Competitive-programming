@@ -1,8 +1,10 @@
-# Project name : SPOJ: Sum of digits
+# Project name : SPOJ: ADDREV -  Adding Reversed Numbers
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-??-??
 # Description  :
 # Status       : Accepted ()
+# Tags         : python
 # Comment      :
 
 no_of_cases = int(input())

@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: Simple Arithmetics II
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-08
 * Description  :
 * Status       : Accepted (23195291)
+* Tags         : python, math, evaluation of formula
 * Comment      :
 */
 
