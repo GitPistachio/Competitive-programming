@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: CSHOWB - Sir and the Guitar
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-03-08
 * Description  :
 * Status       : Accepted (23367543)
+* Tags         ; java, stack
 * Comment      :
 */
 
