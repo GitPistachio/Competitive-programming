@@ -1,8 +1,10 @@
 # Project name : SPOJ: MUL - Fast Multiplication
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachi@gmail.com
 # Date created : 2019-03-09
 # Description  :
 # Status       : Accepted (23373544)
+# Tags         : python
 # Comment      :
 
 T = int(input())
