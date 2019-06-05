@@ -1,5 +1,6 @@
 # Project name : SPOJ: DELEVE - Somma i numeri dispari
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-03-27
 # Description  :
 # Status       : Accepted (23506306)
