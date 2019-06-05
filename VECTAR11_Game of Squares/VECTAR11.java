@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: VECTAR11 - Game of Squares
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-19
 * Description  :
 * Status       : Accepted (23262467)
+* Tags         : java, perfect squares, dynamic programming
 * Comment      : O(nlog(sqrt(n)))
 */
 

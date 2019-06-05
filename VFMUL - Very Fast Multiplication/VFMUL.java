@@ -3,10 +3,10 @@
 * Author       : Wojciech Raszka
 * E-mail       : gitpistachio@gmail.com
 * Date created : 2019-06-02
-* Description  : 
+* Description  :
 * Status       : Accepted (23873396)
-* Tags         : java
-* Comment      : One of the ugliest code I've ever written in SPOJ
+* Tags         : java, fast I/O, FFT, fast Fourier transform, polymonials multiplication, large integer multiplication, bit reverse
+* Comment      : One of the ugliest code I've ever written in SPOJ but it still be optimized by using larger coefficiens and using symetrie of FFT for real-value vector
 */
 
 import java.lang.StringBuilder;
