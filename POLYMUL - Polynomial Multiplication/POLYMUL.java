@@ -1,12 +1,12 @@
 /*
-* Project name : SPOJ: VFMUL - Very Fast Multiplication
+* Project name : SPOJ: POLYMUL - Polynomial Multiplication
 * Author       : Wojciech Raszka
 * E-mail       : gitpistachio@gmail.com
-* Date created : 2019-06-02
+* Date created : 2019-06-07
 * Description  :
-* Status       : Accepted (23873396)
-* Tags         : java, fast I/O, FFT, fast Fourier transform, polymonial multiplication, large integer multiplication, bit reverse
-* Comment      : One of the ugliest code I've ever written in SPOJ but it still be optimized by using larger coefficiens and using symetrie of FFT for real-value vector
+* Status       : Accepted (23890615)
+* Tags         : java, fast I/O, FFT, fast Fourier transform, polynomial multiplication, bit reverse, logarithm base two
+* Comment      :
 */
 
 import java.lang.StringBuilder;
@@ -92,38 +92,6 @@ final class Reader{
       return ret;
   }
 
-  public int nextIntAsDoubleArray(double x[]) throws IOException{
-    int cnt = 0, k = 0, n = 0;
-    int ret;
-    byte c;
-    while ((c = read()) != -1){
-      if (c <= ' '){
-        if (cnt > 0){
-          break;
-        }
-      } else {
-        token[cnt++] = c;
-      }
-    }
-
-    if (cnt % 2 == 1){
-      x[k++] = token[0] - '0';
-      n = cnt/2;
-      cnt = 1;
-    } else {
-      n = cnt/2;
-      cnt = 0;
-    }
-
-
-    for (int i = 0; i < n; i++){
-      x[k++] = (token[cnt] - '0')*10 + token[cnt + 1] - '0';
-      cnt += 2;
-    }
-
-    return k;
-  }
-
   private void fillBuffer() throws IOException{
       bytesRead = dis.read(buffer, bufferPointer = 0, BUFFER_SIZE);
       if (bytesRead == -1)
@@ -143,7 +111,7 @@ final class Reader{
   }
 }
 
-final class VFMUL{
+final class POLYMUL{
   public static double lg(double x){
     return Math.log(x)/Math.log(2);
   }
@@ -271,15 +239,14 @@ final class VFMUL{
   public static void main(String args[]) throws IOException{
     Reader r = new Reader();
     StringBuilder sb = new StringBuilder();
-    //StringBuilder result = new StringBuilder();
     int T = r.nextPositiveInt();
-    final int MAX_NO_OF_DIGITS = 150001;
-    final int MAX_N = 524288;
+    final int MAX_NO_OF_DIGITS = 10001;
+    final int MAX_N = 32769;
 
     double[] x = new double[MAX_NO_OF_DIGITS];
     double[] y = new double[MAX_NO_OF_DIGITS];
     long[] result = new long[MAX_N];
-    int x_len, y_len, n, stop, max_len, k;
+    int m, n, stop, max_len, k;
     long remainder, value, pass_over_value;
     double dpi = 6.283185307179586476925286766559, stop_cond;
     double[] X0 = new double[MAX_N], X1 = new double[MAX_N];
@@ -289,35 +256,24 @@ final class VFMUL{
 
     k = 0;
     while (T-- > 0){
-      x_len = r.nextIntAsDoubleArray(x);
-      y_len = r.nextIntAsDoubleArray(y);
+      m = r.nextPositiveInt() + 1;
+      n = findFirstPowerOf2GreaterThanN(m);
 
-      if (x[0] == 0 || y[0] == 0){
-        sb.append('0');
-      } else if (x_len == 1 && x[0] == 1){
-        for (int i = 0; i < y_len; i++){
-            sb.append(Math.round(y[i]));
-        }
-      } else if (y_len == 1 && y[0] == 1){
-        for (int i = 0; i < x_len; i++){
-            sb.append(Math.round(x[i]));
-        }
+      for (int i = m - 1; i >= 0; i--){
+        x[i] = r.nextInt();
+      }
+
+      for (int i = m - 1; i >= 0; i--){
+        y[i] = r.nextInt();
+      }
+
+      if (m == 1){
+        sb.append(Math.round(x[0]*y[0]));
       } else {
-        max_len = max(x_len, y_len);
-
-        n = findFirstPowerOf2GreaterThanN(max_len);
-
-        //for (int i =  0; i < x_len; i++){
-        //  System.out.println(i + " " + x[i]);
-        //}
-
-        //for (int i =  0; i < y_len; i++){
-        //  System.out.println(i + " " + y[i]);
-        //}
 
         //Stage 1, calculation of FFT of both numbers written as polymonials
-        fft(X0, X1, x, x_len, n);
-        fft(Y0, Y1, y, y_len, n);
+        fft(X0, X1, x, m, n);
+        fft(Y0, Y1, y, m, n);
 
         //Stage 2, multiply element by element given DFT of x and y
         for (int i = 0; i < n; i++){
@@ -325,45 +281,14 @@ final class VFMUL{
           Z1[i] = X1[i]*Y0[i] + X0[i]*Y1[i];
         }
 
-        //Stage 3, retreiving the coefficiens of plymonial (not yet divided by n)
         ifft(z0, z1, Z0, Z1, n);
 
-        stop_cond = n/2;
-        for (stop = 0; stop < n - 2; stop++){
-          if (z0[stop] >= stop_cond){
-            break;
-          }
+        stop = max(0, n - 2*m);
+        sb.append(Math.round(z0[n - 2]/n));
+        for (int i = n - 3; i >= stop; i--){
+          sb.append(' ');
+          sb.append(Math.round(z0[i]/n));
         }
-
-        pass_over_value = 0;
-        for (int i = n - 2; i >= stop; i--){
-          value  = Math.round(z0[i]/n) + pass_over_value;
-          //System.out.println("z[" + i + "] = " + Math.round(z0[i]/n) + " " + pass_over_value);
-          pass_over_value = value/100;
-          remainder = value - 100*pass_over_value;
-          result[k++] = remainder;
-          if (remainder < 10){
-            if (i > stop || pass_over_value > 0){
-              result[k++] = 0;
-            }
-          }
-
-          //result.append(remainder);
-        }
-
-        if (pass_over_value > 0){
-          result[k++] = pass_over_value;
-        }
-
-        //sb.append(result.reverse());
-        //result.setLength(0);
-
-        for (int i = k - 1; i >= 0; i--){
-            sb.append(result[i]);
-          //System.out.println(i + " " + result[i]);
-        }
-        k = 0;
-
       }
       sb.append('\n');
     }
