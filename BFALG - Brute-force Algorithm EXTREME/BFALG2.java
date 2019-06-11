@@ -5,7 +5,7 @@
 * Date created : 2019-05-15
 * Description  :
 * Status       : Accepted (23770449)
-* Tags         : java, fast I/O, modulo power, modular exponentiation, Fermat's little theorem, math, modulo arithmetic, Euler's theorem, Euler's totient funcion, fibonnaci sequence
+* Tags         : java, fast I/O, modulo power, modular exponentiation, Fermat's little theorem, math, modulo arithmetic, Euler's theorem, Euler's totient funcion, fibonacci sequence
 * Comment      : with phi optimization
 */
 

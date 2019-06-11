@@ -1,12 +1,12 @@
 /*
-* Project name : SPOJ: BFALG - Brute-force Algorithm EXTREME
+* Project name : SPOJ: FIBOSUM - Fibonacci Sum
 * Author       : Wojciech Raszka
 * E-mail       : gitpistachio@gmail.com
-* Date created : 2019-05-15
-* Description  :
-* Status       : Accepted (23769087)
-* Tags         : java, fast I/O, modulo power, modular exponentiation, Fermat's little theorem, math, modulo arithmetic, Euler's theorem, Euler's totient funcion, fibonacci sequence
-* Comment      : Similar to SEQAGAIN for k = 1 (this matrix form is used to calculate Fibonacci sequence). You have to applay generalization of Euler's theorem for any integers not only coprimes.
+* Date created : 2019-06-11
+* Description  : A(n) = b*F(n + 2) + a*F(n + 1) - b , where F is Fibonacci sequence
+* Status       : Accepted (23906688)
+* Tags         : java, fast I/O, fibonacci sequence A000045 (OEIS), partial sum of Fibonacci numbers A000071 (OEIS)
+* Comment      :
 */
 
 import java.lang.StringBuilder;
@@ -92,67 +92,25 @@ final class Reader{
   }
 }
 
-final class BFALG{
-  public static long mod(long a, long b){
-    if (a < b){
-      return a;
-    } else {
-      return b + a % b;
-    }
-  }
-
-  public static long power(long x, long y, long p){
-    long result = 1;
-    x = x % p;
-    while (y > 0){
-      if (y % 2 == 1){
-        result = (result * x) % p;
-      }
-
-      y = y >> 1;
-      x = (x * x) % p;
-    }
-
-    return result;
-  }
-
-  public static long phi(long n){
-    long result = n;
-
-    for (int i = 2, j = 4; j <= n; i++, j += i + i - 1){
-      if (n % i == 0){
-        result = result/i*(i - 1);
-        while (n % i == 0){
-          n /= i;
-        }
-      }
-    }
-
-    if (n > 1){
-      result = result/n * (n - 1);
-    }
-
-    return result;
-  }
-
-  public static long [][] matrixPower(long I[][], long n, long m){
-    long [][] T;
+final class FIBOSUM{
+  public static long [][] matrixPower(long I[][], long n, long p){
+    long[][] T;
 
     if (n > 1){
 
-      T = matrixPower(I, n/2, m);
+      T = matrixPower(I, n/2, p);
 
       long a, b, c, d;
       a = T[0][0]; b = T[0][1];
       c = T[1][0]; d = T[1][1];
-      T[0][0] = mod(a*a + b*c, m); T[0][1] = mod(a*b + b*d, m);
-      T[1][0] = mod(c*a + d*c, m); T[1][1] = mod(c*b + d*d, m);
+      T[0][0] = (a*a + b*c) % p; T[0][1] = (a*b + b*d) % p;
+      T[1][0] = (c*a + d*c) % p; T[1][1] = (c*b + d*d) % p;
 
       if (n % 2 == 1){
         a = T[0][0]; b = T[0][1];
         c = T[1][0]; d = T[1][1];
-        T[0][0] = mod(a*I[0][0] + b*I[1][0], m); T[0][1] = mod(a*I[0][1] + b*I[1][1], m);
-        T[1][0] = mod(c*I[0][0] + d*I[1][0], m); T[1][1] = mod(c*I[0][1] + d*I[1][1], m);
+        T[0][0] = (a*I[0][0] + b*I[1][0]) % p; T[0][1] = (a*I[0][1] + b*I[1][1]) % p;
+        T[1][0] = (c*I[0][0] + d*I[1][0]) % p; T[1][1] = (c*I[0][1] + d*I[1][1]) % p;
 
       }
 
@@ -165,44 +123,43 @@ final class BFALG{
     return T;
   }
 
-  public static long f(long n, long a, long b, long p){
-    if (n == 0){
-      return a % p;
+  public static long fibonacci(long n, long first, long second, long p){
+    if (n > 2){
+      long[][] T, I = new long [2][2];
+      I[0][0] = 1; I[0][1] = 1;
+      I[1][0] = 1; I[1][1] = 0;
+
+      T = matrixPower(I, n - 1, p);
+
+
+      return (second*T[0][0] + first*T[1][0]) % p;
+    } else if (n == 2){
+      return (second + first) % p;
     } else if (n == 1){
-      return b % p;
-    } else if (a == 0 || b == 0){
-      return 0;
-    } else if (p == 1){
-      return 0;
+      return second % p;
     }
 
-    long [][] I = new long[2][2];
-    long [][] A;
-    I[0][0] = 1; I[0][1] = 1;
-    I[1][0] = 1; I[1][1] = 0;
-
-    long m = phi(p);
-    A = matrixPower(I, n - 1, m);
-
-    return (power(b, A[0][0], p)*power(a, A[0][1], p)) % p;
+    return first;
   }
 
   public static void main(String args[]) throws IOException{
     Reader r = new Reader();
     StringBuilder sb = new StringBuilder();
-    int T = r.nextPositiveInt();
-    long a, b, p, n;
+    int first, second, n, T = r.nextPositiveInt();
+    long p, result;
 
-    for (int t = 1; t <= T; t++){
-      a = r.nextPositiveLong();
-      b = r.nextPositiveLong();
-      p = r.nextPositiveLong();
-      n = r.nextPositiveLong();
+    while (T-- > 0){
+      first = r.nextPositiveInt();
+      second = r.nextPositiveInt();
+      n = r.nextPositiveInt();
+      p = r.nextPositiveInt();
 
-      sb.append("Case #");
-      sb.append(t);
-      sb.append(": ");
-      sb.append(f(n - 1, a, b, p));
+      result = (fibonacci(n + 1, first, second, p) - (second % p)) % p;
+      if (result < 0){
+      	result += p;
+      }
+
+      sb.append(result);
       sb.append('\n');
     }
     System.out.print(sb.toString());

@@ -1,9 +1,11 @@
 /*
 * Project name : SPOJ: RPLE - Espionage
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-03-18
 * Description  :
 * Status       : Accepted (23441230)
+* Tags         : java, fast I/O
 * Comment      :
 */
 
