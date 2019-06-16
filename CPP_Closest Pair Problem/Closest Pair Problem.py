@@ -1,8 +1,10 @@
-# Project name : SPOJ: Closest pair problem
+# Project name : SPOJ: CPP - Closest pair problem
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-02-09
 # Description  :
 # Status       : Accepted 100 (23199333)
+# Tags         : python, point, linear geometry, distance between points
 # Comment      :
 
 import sys
