@@ -1,9 +1,10 @@
 /*
 * Project name : SPOJ: CLOPPAIR - Closest point pair
 * Author       : Wojciech Raszka
+* E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-09
 * Description  :
-* Status       : Accepted (23201679
+* Status       : Accepted (23201679)
 * Tags         : c++
 * Comment      : O(N^2)
 */

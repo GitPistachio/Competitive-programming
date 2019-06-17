@@ -1,8 +1,10 @@
 # Project name : SPOJ: AMR10G - Christmas Play
 # Author       : Wojciech Raszka
+# E-mail       : gitpistachio@gmail.com
 # Date created : 2019-03-08
 # Description  :
 # Status       : Accepted (23367585)
+# Tags         : python
 # Comment      :
 
 T = int(input())
