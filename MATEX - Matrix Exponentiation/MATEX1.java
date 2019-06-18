@@ -1,12 +1,12 @@
 /*
-* Project name : SPOJ: SPCQ - Gopu and Digits Divisibility
+* Project name : SPOJ: MATEX - Matrix Exponentiation
 * Author       : Wojciech Raszka
 * E-mail       : gitpistachio@gmail.com
-* Date created : 2019-06-17
+* Date created : 2019-06-18
 * Description  :
-* Status       : Accepted (23929560)
-* Tags         : java, fast I/O, Niven (Harshad) numbers A005349 (OEIS), brute-force
-* Comment      :
+* Status       : Accepted (23935207)
+* Tags         : java, fast I/O, matrix, matrix exponentiation
+* Comment      : 195
 */
 
 import java.lang.StringBuilder;
@@ -73,25 +73,6 @@ final class Reader{
       return ret;
   }
 
-  public String nextWord() throws IOException {
-    byte[] buf = new byte[10];
-    int cnt = 0;
-    byte c = read();
-
-    while (c <= ' ')
-      c = read();
-
-    buf[cnt++] = c;
-    while ((c = read()) != -1) {
-      if (c <= ' ') {
-        break;
-      }
-
-      buf[cnt++] = c;
-    }
-    return new String(buf, 0, cnt);
-  }
-
   private void fillBuffer() throws IOException{
       bytesRead = dis.read(buffer, bufferPointer = 0, BUFFER_SIZE);
       if (bytesRead == -1)
@@ -111,29 +92,56 @@ final class Reader{
   }
 }
 
-final class SPCQ{
-  public static long sumOfDigits(long n){
-    long sum_of_digits = 0;
+final class MATEX1{
+  public static long[][] naiveSquareMatrixMultiplication(long A[][], long B[][], int n, long p) {
+    long[][] C = new long[n][n];
 
-    while (n > 0){
-      sum_of_digits += n % 10;
-      n /= 10;
+    for (int i = 0; i < n; i++) {
+      for (int j = 0; j < n; j++) {
+        for (int k = 0; k < n; k++) {
+          C[i][j] += (A[i][k]*B[k][j] % p);
+        }
+        C[i][j] = C[i][j] % p;
+      }
     }
 
-    return sum_of_digits;
+    return C;
   }
+
+  public static long[][] naiveMatrixExpotentation(long A[][], int n, long m, long p) {
+    if (m > 1) {
+      long[][] M = naiveMatrixExpotentation(A, n, m/2, p);
+      if ((m & 1) == 0) {
+        return naiveSquareMatrixMultiplication(M, M, n, p);
+      } else {
+        return naiveSquareMatrixMultiplication(naiveSquareMatrixMultiplication(M, M, n, p), A, n, p);
+      }
+    }
+
+    return A;
+  }
+
   public static void main(String args[]) throws IOException{
     Reader r = new Reader();
     StringBuilder sb = new StringBuilder();
-    int T = r.nextPositiveInt();
-    long n, sum_of_digits;
+    final long p = 1000000007;
+    final int max_no_of_queries = 195;
+    int row, col, n = r.nextPositiveInt();
+    long[][] M = new long[n][n];
+    long m;
 
-    while (T-- > 0){
-      n = r.nextPositiveLong();
+    for (int i = 0; i < n; i++) {
+      for (int j = 0; j < n; j++) {
+        M[i][j] = r.nextPositiveInt();
+      }
+    }
 
-      while (n % sumOfDigits(n++) != 0);
+    for (int i = 0; i < max_no_of_queries; i++) {
+      row = r.nextPositiveInt() - 1;
+      col = r.nextPositiveInt() - 1;
+      m = r.nextPositiveLong();
 
-      sb.append(n - 1);
+      sb.append(naiveMatrixExpotentation(M, n, m, p)[row][col]);
       sb.append('\n');
     }
     System.out.print(sb.toString());

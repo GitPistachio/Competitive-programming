@@ -1,11 +1,11 @@
 /*
-* Project name : SPOJ: SPCQ - Gopu and Digits Divisibility
+* Project name : SPOJ: QUEUEEZ - Easy Queue
 * Author       : Wojciech Raszka
 * E-mail       : gitpistachio@gmail.com
 * Date created : 2019-06-17
 * Description  :
-* Status       : Accepted (23929560)
-* Tags         : java, fast I/O, Niven (Harshad) numbers A005349 (OEIS), brute-force
+* Status       : Accepted (23933288)
+* Tags         : java, fast I/O, queue
 * Comment      :
 */
 
@@ -92,10 +92,17 @@ final class Reader{
     return new String(buf, 0, cnt);
   }
 
-  private void fillBuffer() throws IOException{
+  private void fillBuffer() throws IOException {
       bytesRead = dis.read(buffer, bufferPointer = 0, BUFFER_SIZE);
       if (bytesRead == -1)
           buffer[0] = -1;
+  }
+
+  public byte nextByte() throws IOException {
+    byte c;
+    while ((c = read()) <= ' ');
+
+    return c;
   }
 
   private byte read() throws IOException{
@@ -111,30 +118,36 @@ final class Reader{
   }
 }
 
-final class SPCQ{
-  public static long sumOfDigits(long n){
-    long sum_of_digits = 0;
-
-    while (n > 0){
-      sum_of_digits += n % 10;
-      n /= 10;
-    }
-
-    return sum_of_digits;
-  }
+final class QUEUEEZ{
   public static void main(String args[]) throws IOException{
     Reader r = new Reader();
     StringBuilder sb = new StringBuilder();
+    final int MAX_SIZE = 1000000;
     int T = r.nextPositiveInt();
-    long n, sum_of_digits;
+    int front = 0, back = 0;
+    byte type_of_operation;
+    int[] st = new int[MAX_SIZE];
 
     while (T-- > 0){
-      n = r.nextPositiveLong();
+      type_of_operation = r.nextByte();
 
-      while (n % sumOfDigits(n++) != 0);
-
-      sb.append(n - 1);
-      sb.append('\n');
+      if (type_of_operation == '1') {
+        st[back++] = r.nextInt();
+      } else if (type_of_operation == '2') {
+        if (back > front) {
+          front++;
+        } else {
+          back = 0;
+          front = 0;
+        }
+      } else {
+        if (back > front) {
+          sb.append(st[front]);
+          sb.append('\n');
+        } else {
+          sb.append("Empty!\n");
+        }
+      }
     }
     System.out.print(sb.toString());
   }
