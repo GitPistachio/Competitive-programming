@@ -94,7 +94,7 @@ final class Reader{
   }
 }
 
-class FIB64S6{
+class FIB64S12{
   public static boolean[] bits = new boolean[63];
 
   public static BigInteger moduloFibonacci(long n, BigInteger m){
