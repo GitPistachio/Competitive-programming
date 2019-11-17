@@ -4,12 +4,12 @@
 # Date created : 2019-04-21
 # Description  :
 # Status       : Accepted (23668073)
-# Tags         : python
+# Tags         : python, bignum arithmetic
 # Comment      :
 
 from decimal import *
 
-getcontext().prec = 100
+getcontext().prec = 102
 
 T = int(raw_input())
 
