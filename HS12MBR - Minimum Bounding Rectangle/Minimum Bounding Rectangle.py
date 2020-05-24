@@ -1,4 +1,5 @@
 # Project name : SPOJ: HS12MBR - Minimum Bounding Rectangle
+# Link         : https://www.spoj.com/problems/HS12MBR/
 # Author       : Wojciech Raszka
 # E-mail       : gitpistachio@gmail.com
 # Date created : 2019-02-09
@@ -10,6 +11,15 @@
 from functools import reduce
 
 def rectangleCoordinates(c1, c2):
+    """Get minimum bounding rectangle for two rectangles.
+       Args:
+           c1 (tuple): cordinates of left top and right bottom corners of first rectangle
+           c1 (tuple): cordinates of left top and right bottom corners of second rectangle
+       
+       Returns:
+           tuple: cordinates of left top and right bottom corners of minimum bounding rectangle
+
+    """
     if c1[3] > c2[3]:
         if c1[2] > c2[2]:
             if c1[1] < c2[1]:
@@ -58,14 +68,15 @@ def rectangleCoordinates(c1, c2):
                     return (c2[0], c2[1], c2[2], c2[3])
 
 def getCoordinates(p):
-    if p[0] == 'p':
+    """Get left top and right bottom corner of minimum bounding rectangle."""
+    if p[0] == 'p': # minimum bounding rectangle for point
         return (int(p[1]), int(p[2]), int(p[1]), int(p[2]))
-    elif p[0] == 'c':
+    elif p[0] == 'c': # minimum bounding rectangle for circle
         x = int(p[1])
         y = int(p[2])
         r = int(p[3])
         return (x - r, y - r, x + r, y + r)
-    elif p[0] == 'l':
+    elif p[0] == 'l': # minimum bounding rectangle for line segment
         x1 = int(p[1])
         y1 = int(p[2])
         x2 = int(p[3])
