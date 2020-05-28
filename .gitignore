@@ -1,5 +1,8 @@
 *.Rhistory
 *.class
 *.RData
-OTHER/
+**/.ipynb_checkpoints
+Kaggle/*/input/
+Kaggle/*/test/
+Kaggle/*/output/
 /__*/
