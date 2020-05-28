@@ -1,7 +1,7 @@
 /*
 * Project name : SPOJ: GCDEX - GCD Extreme
 * Author       : Wojciech Raszka
-* E-mali       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.site
 * Date created : 2019-05-16
 * Description  :
 * Status       : Accepted (23776952)
