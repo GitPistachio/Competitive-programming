@@ -1,4 +1,4 @@
-# Project name : SPOJ: Adding reversed numbers
+# Project name : SPOJ: ADDREV - Adding reversed numbers
 # Author       : Wojciech Raszka
 # Date created : 2019-02-06
 # Description  :

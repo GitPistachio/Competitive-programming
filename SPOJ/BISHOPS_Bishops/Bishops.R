@@ -1,4 +1,4 @@
-# Project name : SPOJ: Bishops
+# Project name : SPOJ: BISHOPS - Bishops
 # Author       : Wojciech Raszka
 # Date created : 2019-02-08
 # Description  :

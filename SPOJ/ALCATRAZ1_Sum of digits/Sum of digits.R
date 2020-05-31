@@ -1,4 +1,4 @@
-# Project name : SPOJ: Sum of digits
+# Project name : SPOJ: ALCATRAZ1 - Sum of digits
 # Author       : Wojciech Raszka
 # Date created : 2019-02-06
 # Description  :

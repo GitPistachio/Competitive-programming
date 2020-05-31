@@ -1,5 +1,5 @@
 /*
-* Project name : SPOJ: What’s Next
+* Project name : SPOJ: ACPC10A - What’s Next
 * Author       : Wojciech Raszka
 * Date created : 2019-02-10
 * Description  :

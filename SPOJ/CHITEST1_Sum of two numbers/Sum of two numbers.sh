@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Project name : SPOJ: Sum of two numbers
+# Project name : SPOJ: CHITEST1 - Sum of two numbers
 # Author       : Wojciech Raszka
 # Date created : 2019-02-10
 # Description  :

@@ -1,5 +1,5 @@
 /*
-* Project name : SPOJ: Candy I
+* Project name : SPOJ: CANDY - Candy I
 * Author       : Wojciech Raszka
 * Date created : 2019-02-06
 * Description  :

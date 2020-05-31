@@ -1,5 +1,5 @@
 /*
-* Project name : SPOJ: abs(a-b) I
+* Project name : SPOJ: ABSP1 - abs(a-b) I
 * Author       : Wojciech Raszka
 * Date created : 2019-02-13
 * Description  :

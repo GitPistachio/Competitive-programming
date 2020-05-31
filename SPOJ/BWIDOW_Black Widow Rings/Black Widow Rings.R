@@ -1,4 +1,4 @@
-# Project name : SPOJ: Black widow rings
+# Project name : SPOJ: BWIDOW - Black widow rings
 # Author       : Wojciech Raszka
 # Date created : 2019-02-09
 # Description  :

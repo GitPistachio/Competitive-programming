@@ -1,5 +1,5 @@
 /*
-* Project name : SPOJ: The Mirror of Galadriel
+* Project name : SPOJ: AMR12D - The Mirror of Galadriel
 * Author       : Wojciech Raszka
 * Date created : 2019-02-06
 * Description  :

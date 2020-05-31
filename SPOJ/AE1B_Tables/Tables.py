@@ -1,4 +1,4 @@
-# Project name : SPOJ: Tables
+# Project name : SPOJ: AE1B - Tables
 # Author       : Wojciech Raszka
 # Date created : 2019-02-06
 # Description  :

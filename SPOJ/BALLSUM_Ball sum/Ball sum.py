@@ -1,4 +1,4 @@
-# Project name : SPOJ: Game store
+# Project name : SPOJ: BALLSUM - Game store
 # Author       : Wojciech Raszka
 # Date created : 2019-02-10
 # Description  :

@@ -1,5 +1,5 @@
 /*
-* Project name : SPOJ: Simple Arithmetics II
+* Project name : SPOJ: ARITH2 - Simple Arithmetics II
 * Author       : Wojciech Raszka
 * E-mail       : gitpistachio@gmail.com
 * Date created : 2019-02-08

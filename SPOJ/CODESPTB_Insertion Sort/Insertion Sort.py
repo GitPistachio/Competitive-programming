@@ -1,4 +1,4 @@
-# Project name : SPOJ: Insertion sort
+# Project name : SPOJ: CODESPTB - Insertion sort
 # Author       : Wojciech Raszka
 # Date created : 2019-??-??
 # Description  :
