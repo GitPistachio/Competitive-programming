@@ -5,9 +5,9 @@
 # E-mail       : contact@gitpistachio.site
 # Date created : 2020-06-08
 # Description  :
-# Status       : Wrong Answer (34351990)
-# Tags         : python, convex hull, point in a convex polygon
-# Score        : 0
+# Status       : Accepted (34442926)
+# Tags         : python, convex hull, point in a convex polygon, Andrew's monotone chain algotithm, geometric computation
+# Score        : 100
 # Comment      :
 
 from sys import exit, stdin, stdout
@@ -91,29 +91,25 @@ no_of_test_cases = int(stdin.readline())
 for _ in range(no_of_test_cases):
     n, q = map(int, stdin.readline().split())
     chiefs_points = sorted([Point(*map(int, stdin.readline().split())) for _ in range(n)])
+    layers = []
+    while True:
+        convex_hull = getConvexHull(chiefs_points)
+        if len(convex_hull) < 3:
+            break
+        layers.append(convex_hull)
+        for p in convex_hull:
+            chiefs_points.remove(p)
+        for p in chiefs_points.copy():
+            if not isPointStrictlyInsideConvexPolygon(p, convex_hull):
+                chiefs_points.remove(p)
     for _ in range(q):
-        points = chiefs_points.copy()
-
         candle_point = Point(*map(int, stdin.readline().split()))
-        if candle_point in points:
-            points.remove(candle_point)
 
         cnt = 0
-        while True:
-            convex_hull = getConvexHull(points)
-            if len(convex_hull) < 3:
+        for layer in layers:
+            if isPointStrictlyInsideConvexPolygon(candle_point, layer):
+                cnt += 1
+            else:
                 break
-
-            if not isPointStrictlyInsideConvexPolygon(candle_point, convex_hull):
-                break
-
-            cnt += 1
-
-            for p in convex_hull:
-                points.remove(p)
-
-            for p in points.copy():
-                if not isPointStrictlyInsideConvexPolygon(candle_point, convex_hull):
-                    points.remove(p)
 
         stdout.write(str(cnt) + '\n')
