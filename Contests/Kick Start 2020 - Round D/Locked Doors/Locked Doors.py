@@ -1,3 +1,13 @@
+# Project name : Google: Kick Start 2020 - Round D: Locked Doors
+# Link         : https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08/0000000000386d5c
+# Author       : Wojciech Raszka
+# E-mail       : contact@gitpistachio.com
+# Date created : 2020-07-12
+# Description  :
+# Status       : Time Limit Exceeded
+# Tags         : python, brute force
+# Comment      :
+
 from sys import stdin, stdout
 
 

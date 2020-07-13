@@ -1,3 +1,13 @@
+# Project name : Google: Kick Start 2020 - Round D: Alien Piano
+# Link         : https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08/0000000000387174
+# Author       : Wojciech Raszka
+# E-mail       : contact@gitpistachio.com
+# Date created : 2020-07-12
+# Description  :
+# Status       : Accepted
+# Tags         : python, DP, dynamic-programming
+# Comment      :
+
 from sys import stdin, stdout
 
 no_of_test_cases = int(stdin.readline())
