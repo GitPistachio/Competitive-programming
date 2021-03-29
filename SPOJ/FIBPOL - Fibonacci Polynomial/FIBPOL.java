@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: FIBPOL - Fibonacci Polynomial
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-13
 * Description  :
 * Status       : Accepted (23915114)
-* Tags         : java, fast I/O, fibonacci sequence A000045 (OEIS), integer sequence A081018 (OEIS)
+* Tags         : java, fast I/O, fibonacci sequence, integer sequence A000045 (OEIS), integer sequence A081018 (OEIS)
 * Comment      :
 */
 

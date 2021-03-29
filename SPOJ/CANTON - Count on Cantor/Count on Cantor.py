@@ -1,10 +1,10 @@
 # Project name : SPOJ: CANTON - Count on Cantor
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-24
 # Description  :
 # Status       : Accepted (23681102)
-# Tags         : python, math, Cantor prove of countability of the rational numbers, integer sequence A092542 and A092543 (OEIS)
+# Tags         : python, math, Cantor prove of countability of the rational numbers, integer sequence A092542 (OEIS), integer sequence A092543 (OEIS)
 # Comment      : nth number is A092542(n)/A092543(n)
 
 from math import floor, sqrt

@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: FIBONOMIAL - Fibonacci Polynomial
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-13
 * Description  : D(n, x) = (x*X + x - 1)/(F(n + 1)x^(n + 1) + F(n)x^(n + 2))
 * Status       : Accepted (23915058)
-* Tags         : java, fast I/O, fibonacci sequence A000045 (OEIS), fibonacci generating function
+* Tags         : java, fast I/O, fibonacci sequence, integer sequence A000045 (OEIS), fibonacci generating function
 * Comment      :
 */
 

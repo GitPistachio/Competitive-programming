@@ -1,3 +1,12 @@
+# Project name : SPOJ: FCTRL - Factorial
+# Author       : Wojciech Raszka
+# E-mail       : contact@gitpistachio.com
+# Date created : 
+# Description  :
+# Status       : 
+# Tags         : R
+# Comment      :
+
 Z <- function(n){
   d <- 5
   no_of_zeros <- 0

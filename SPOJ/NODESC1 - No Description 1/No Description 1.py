@@ -1,10 +1,10 @@
 # Project name : SPOJ: NODESC1 - No Description 1
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-02
 # Description  :
 # Status       : Accepted (23555290)
-# Tags         : python, fibonacci, brute force
+# Tags         : python, fibonacci sequence, brute force
 # Comment      : Solution: for n print F(n) chars '?', where F(n) is a fibonacci sequence
 
 def F(n):

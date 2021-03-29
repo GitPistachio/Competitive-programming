@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: MATCHSTR - Tìm xâu 01
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-04-10
 * Description  :
 * Status       : Accepted (23614796)
-* Tags         : c++, string pattern, sliding window, pattern match, a substring in a string
+* Tags         : c++, string pattern, sliding window technique, pattern match, substring in a string
 * Comment      : 100 score
 */
 

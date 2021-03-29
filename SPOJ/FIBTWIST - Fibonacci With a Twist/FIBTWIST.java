@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: FIBTWIST - Fibonacci With a Twist
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-11
 * Description  : A(n) = F(n + 3) + F(n) - (n + 2) = 2*(F(n + 2) - 1) - n, where F is Fibonacci sequence
 * Status       : Accepted (23907082)
-* Tags         : java, fast I/O, fibonacci sequence A000045 (OEIS), partial sum of Fibonacci numbers A000071 (OEIS), integer sequence A001924 (OEIS), iteger sequence A104161 (OEIS)
+* Tags         : java, fast I/O, fibonacci sequence, integer sequence A000045 (OEIS), partial sum of Fibonacci numbers, integer sequence A000071 (OEIS), integer sequence A001924 (OEIS), integer sequence A104161 (OEIS)
 * Comment      :
 */
 

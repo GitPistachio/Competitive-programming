@@ -1,10 +1,10 @@
 # Project name : SPOJ: REPROAD - Repair road
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-27
 # Description  :
 # Status       : Accepted (23689995)
-# Tags         : python, sliding window
+# Tags         : python, sliding window technique
 # Comment      :
 
 def maxNoOfConsecutiveBlocks(R, m, k):

@@ -5,7 +5,7 @@
 * Date created : 2019-02-16
 * Description  :
 * Status       : Accepted (23242792)
-* Tags         : java, fibonacci sequence
+* Tags         : java, fibonacci sequence, integer sequence a000045 (oeis)
 * Comment      : 3000
 */
 

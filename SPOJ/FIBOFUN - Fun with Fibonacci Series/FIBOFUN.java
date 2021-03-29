@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: FIBOSUM - Fibonacci Sum
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-11
 * Description  : A(n) = b*F(n + 2) + a*F(n + 1) - b , where F is Fibonacci sequence
 * Status       : Accepted (23906688)
-* Tags         : java, fast I/O, fibonacci sequence A000045 (OEIS), partial sum of Fibonacci numbers A000071 (OEIS)
+* Tags         : java, fast I/O, fibonacci sequence, integer sequence A000045 (OEIS), partial sum of Fibonacci numbers, integer sequence A000071 (OEIS)
 * Comment      :
 */
 

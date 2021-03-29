@@ -4,6 +4,7 @@
 * Date created : 2019-02-13
 * Description  :
 * Status       : Accepted (23224729)
+* Tags         : java
 * Comment      : Use the formula (A[i+1] - A[i])*(N - i - 1)*(i + 1) for all N > i > 0
 */
 

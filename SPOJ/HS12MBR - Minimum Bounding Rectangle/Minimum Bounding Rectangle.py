@@ -1,11 +1,11 @@
 # Project name : SPOJ: HS12MBR - Minimum Bounding Rectangle
 # Link         : https://www.spoj.com/problems/HS12MBR/
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-02-09
 # Description  :
 # Status       : Accepted (23286818)
-# Tags         : python,  math, geometry, rectangle, gift wrapping algorithm, minimum bounding rectangle, sliding window
+# Tags         : python,  math, geometry, rectangle, gift wrapping algorithm, minimum bounding rectangle, sliding window technique
 # Comment      : 100 points
 
 from functools import reduce

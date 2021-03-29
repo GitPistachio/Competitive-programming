@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: HACKRNDM - Hacking the random number generator
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-20
 * Description  :
 * Status       : Accepted (23947165)
-* Tags         : java, fast I/O, sorting, sliding window algorithm
+* Tags         : java, fast I/O, sorting, sliding window technique
 * Comment      :
 */
 

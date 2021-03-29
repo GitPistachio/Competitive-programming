@@ -1,3 +1,12 @@
+# Project name : SPOJ: PLCNUM1 - Place the Numbers I
+# Author       : Wojciech Raszka
+# E-mail       : contact@gitpistachio.com
+# Date created : 
+# Description  :
+# Status       : 
+# Tags         : R
+# Comment      :
+
 f <- file('stdin', open='r')
 
 N <- as.integer(readLines(f, n=1))

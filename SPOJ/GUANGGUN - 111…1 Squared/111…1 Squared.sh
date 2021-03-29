@@ -2,11 +2,11 @@
 
 # Project name : SPOJ: GUANGGUN - 111…1 Squared
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-01
 # Description  :
 # Status       : Accepted (23571331)
-# Tags         : bash integer sequence A080151 (OEIS)
+# Tags         : bash, integer sequence A080151 (oeis)
 # Comment      : a(n) = floor(n/9)*81 + (n mod 9)^2
 
 

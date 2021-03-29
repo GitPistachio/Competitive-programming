@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: TDPRIMES - Printing some primes
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-04-21
 * Description  :
 * Status       : Accepted (23666596)
-* Tags         : java, fast I/O, prime number, sieve of eratosthenes, 2-3 wheel optimization
+* Tags         : java, fast I/O, prime numbers, sieve of eratosthenes, 2-3 wheel factorization
 * Comment      :
 */
 

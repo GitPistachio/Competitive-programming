@@ -5,7 +5,7 @@
 # Date created : 2020-06-19
 # Description  :
 # Status       : Accepted (34545596)
-# Tags         : python, linear data structure, zonal computing olympiad 2015, area of rectangle, Barbay-Fischer-Navarro sequential algorithm, all nerest smaller values, maximum rectangle under the histogram
+# Tags         : python, linear data structure, zonal computing olympiad 2015, area of rectangle, Barbay-Fischer-Navarro sequential algorithm, all nearest smaller values, maximum rectangle under the histogram
 # Comment      :
 
 from sys import exit, stdin, stdout

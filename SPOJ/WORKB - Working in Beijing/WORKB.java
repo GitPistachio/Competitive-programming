@@ -4,7 +4,7 @@
 * Date created : 2019-03-20
 * Description  :
 * Status       : Accepted (23456172)
-* Tags         : java, fast I/O, sliding windows
+* Tags         : java, fast I/O, sliding window technique
 * Comment      :
 */
 

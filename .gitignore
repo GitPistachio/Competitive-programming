@@ -6,4 +6,4 @@
 Kaggle/*/input/
 Kaggle/*/test/
 Kaggle/*/output/
-/__*/
+**/__*/

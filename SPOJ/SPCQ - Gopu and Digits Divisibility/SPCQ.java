@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: SPCQ - Gopu and Digits Divisibility
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-17
 * Description  :
 * Status       : Accepted (23929560)
-* Tags         : java, fast I/O, Niven (Harshad) numbers A005349 (OEIS), brute-force
+* Tags         : java, fast I/O, Niven (Harshad) numbers A005349 (OEIS), brute force
 * Comment      :
 */
 

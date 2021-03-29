@@ -1,6 +1,6 @@
 # Project name : SPOJ: APS - Amazing Prime Sequence
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-28
 # Description  :
 # Status       : Accepted (23694169)

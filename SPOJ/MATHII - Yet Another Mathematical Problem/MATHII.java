@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: MATHII - Yet Another Mathematical Problem
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-19
 * Description  :
 * Status       : Accepted (23945545)
-* Tags         : java, fst I/O, math, integer sequence A061201 (OEIS), integer sequence A006218 (OEIS)
+* Tags         : java, fast I/O, math, integer sequence A061201 (OEIS), integer sequence A006218 (OEIS)
 * Comment      :
 */
 

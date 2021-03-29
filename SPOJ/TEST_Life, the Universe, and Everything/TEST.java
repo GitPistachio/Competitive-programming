@@ -1,3 +1,12 @@
+/*
+* Project name : SPOJ: TEST - Life, the Universe, and Everything
+* Author       : Wojciech Raszka
+* Date created : 
+* Description  :
+* Status       : 
+* Comment      :
+*/
+
 import java.util.Scanner;
 
 class TEST

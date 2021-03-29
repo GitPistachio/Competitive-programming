@@ -2,11 +2,11 @@
 # Link         : https://www.codechef.com/JUNE20B/problems/CONTAIN
 # Try it on    : 
 # Author       : Wojciech Raszka
-# E-mail       : contact@gitpistachio.site
+# E-mail       : contact@gitpistachio.com
 # Date created : 2020-06-08
 # Description  :
 # Status       : Accepted (34442926)
-# Tags         : python, convex hull, point in a convex polygon, Andrew's monotone chain algotithm, geometric computation
+# Tags         : python, convex hull, point in a convex polygon, andrew's monotone chain convex hull algorithm, geometric computation
 # Score        : 100
 # Comment      :
 

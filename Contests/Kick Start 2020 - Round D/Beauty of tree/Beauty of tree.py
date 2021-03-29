@@ -1,3 +1,13 @@
+# Project name : Google: Kick Start 2020 - Round D: Beauty tree
+# Link         : https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08/0000000000386edd
+# Author       : Wojciech Raszka
+# E-mail       : contact@gitpistachio.com
+# Date created : 
+# Description  :
+# Status       : 
+# Tags         : python
+# Comment      :
+
 from sys import stdin, stdout, setrecursionlimit
 from collections import defaultdict
 

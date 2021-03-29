@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: FIBFUNCH - Fun with Fibonacci Series (Challenge)
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-11
 * Description  : A(n) = b*F(n + 2) + a*F(n + 1) - b , where F is Fibonacci sequence
 * Status       : Accepted (23906933)
-* Tags         : java, fast I/O, fibonacci sequence A000045 (OEIS), partial sum of Fibonacci numbers A000071 (OEIS)
+* Tags         : java, fast I/O, fibonacci sequence, integer sequence A000045 (OEIS), partial sum of Fibonacci numbers, integer sequence A000071 (OEIS)
 * Comment      : 1729. It could be massivly reduce. I think doublig method here will be more appropriate
 */
 

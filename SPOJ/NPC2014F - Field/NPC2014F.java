@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: NPC2014F - Field
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-03-22
 * Description  :
 * Status       : Accepted (23470521)
-* Tags         : java, fast I/O, string pattern, sliding window
+* Tags         : java, fast I/O, string pattern, sliding window technique
 * Comment      :
 */
 

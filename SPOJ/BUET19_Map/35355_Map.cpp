@@ -1,3 +1,14 @@
+/*
+* Project name : SPOJ: BUET19 - Map
+* Author       : Wojciech Raszka
+* E-mail       : contact@gitpistachio.com
+* Date created : 
+* Description  :
+* Status       : 
+* Tags         : c++
+* Comment      : 
+*/
+
 #include <iostream>
 #include <set>
 #include <algorithm>

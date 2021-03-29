@@ -1,10 +1,10 @@
 # Project name : SPOJ: TRI_SUMS - Sums in a triangle
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-06-21
 # Description  :
 # Status       : Accepted (23955188)
-# Tags         : python, dynamic-programming
+# Tags         : python, dynamic programming, DP
 # Comment      : 209
 
 def r():return list(map(int,raw_input().split()))

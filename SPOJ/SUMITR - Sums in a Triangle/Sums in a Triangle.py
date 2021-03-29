@@ -1,10 +1,10 @@
 # Project name : SPOJ: SUMITR - Sums in a Triangle
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-06-21
 # Description  :
 # Status       : Accepted (23592215)
-# Tags         : python, dynamic-programming
+# Tags         : python, dynamic programming, DP
 # Comment      :
 
 def r():

@@ -1,10 +1,10 @@
 # Project name : SPOJ: MARBLES - Marbles
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-18
 # Description  :
 # Status       : Accepted (23196497)
-# Tags         : python, combination, math, combinatorics
+# Tags         : python, combinations without repetition, math, combinatorics
 # Comment      : C(n - 1, k - 1)
 
 

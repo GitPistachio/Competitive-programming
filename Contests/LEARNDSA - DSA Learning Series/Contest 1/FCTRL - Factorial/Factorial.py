@@ -1,11 +1,11 @@
 # Project name : CodeChef: FCTRL - Factorial
 # Link         : https://www.codechef.com/LRNDSA01/problems/FCTRL
 # Author       : Wojciech Raszka
-# E-mail       : contact@gitpistachio
+# E-mail       : contact@gitpistachio.com
 # Date created : 2020-05-31
 # Description  :
 # Status       : Accepted (33527157)
-# Tags         : python, number of trailing zeros in n!,  sequence A027868 (OEIS), factorial
+# Tags         : python, number of trailing zeros in n!,  integer sequence A027868 (OEIS), factorial
 # Comment      :
 
 def Z(n):

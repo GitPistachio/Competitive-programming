@@ -2,11 +2,11 @@
 # Link         : https://www.codechef.com/LTIME84B/problems/TREDIFF
 # Try it on    : https://ideone.com/aiDG3c
 # Author       : Wojciech Raszka
-# E-mail       : contact@gitpistachio.site
+# E-mail       : contact@gitpistachio.com
 # Date created : 2020-06-02
 # Description  :
 # Status       : Accepted(33557948)
-# Tags         : python, graph, tree graph, frequency table, min difference between elements, bfs, breadth-first search, pigeonhole principle
+# Tags         : python, graph, tree graph, frequency table, min difference between elements, bfs, breadth first search, pigeonhole principle
 # Comment      : 100
 
 from sys import stdin, stdout

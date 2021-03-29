@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: MARBLES - Marbles
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-04-18
 * Description  :
 * Status       : Accepted (23651369)
-* Tags         : java, gcd, greatest common divisor, combination, math, combinatorics
+* Tags         : java, gcd, greatest common divisor, combinations without repetition, math, combinatorics
 * Comment      :
 */
 

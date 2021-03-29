@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: BFALG - Brute-force Algorithm EXTREME
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-05-15
 * Description  :
 * Status       : Accepted (23770449)
-* Tags         : java, fast I/O, modulo power, modular exponentiation, Fermat's little theorem, math, modulo arithmetic, Euler's theorem, Euler's totient funcion, fibonacci sequence
+* Tags         : java, fast I/O, modulo power, modular exponentiation, Fermat's little theorem, math, modulo arithmetic, Euler's theorem, Euler's totient funcion, fibonacci sequence, integer sequence a000045 (oeis)
 * Comment      : with phi optimization
 */
 

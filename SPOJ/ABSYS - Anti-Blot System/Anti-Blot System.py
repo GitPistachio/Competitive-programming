@@ -1,10 +1,10 @@
 # Project name : SPOJ: ABSYS - Anti-Blot System
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-06-20
 # Description  :
 # Status       : Accepted (23948176)
-# Tags         : python, string manupulation
+# Tags         : python, string manipulation
 # Comment      :
 
 from sys import stdin, stdout

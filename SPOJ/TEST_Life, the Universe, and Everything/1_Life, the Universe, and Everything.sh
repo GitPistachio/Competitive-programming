@@ -1,4 +1,14 @@
 #!/bin/bash
+
+# Project name : SPOJ: TEST - Life, the Universe, and Everything
+# Author       : Wojciech Raszka
+# E-mail       : contact@gitpistachio.com
+# Date created :
+# Description  :
+# Status       : 
+# Tags         : bash
+# Comment      :
+
 while true
 do
   read line

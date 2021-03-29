@@ -2,11 +2,11 @@
 
 # Project name : SPOJ: GOO - Game Of Ones
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-04
 # Description  :
 # Status       : Accepted (23571513)
-# Tags         : bash integer sequence A100498 and A001792 (OEIS)
+# Tags         : bash, integer sequence A100498 (oeis), integer sequence A001792 (oeis)
 # Comment      : left part: a(n) = 2^n, right part a(n) = (n + 2)*2^(n - 1)
 
 read T

@@ -1,10 +1,10 @@
 # Project name : SPOJ: MAJOR - Majority
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-11-07
 # Description  :
 # Status       : Accepted (24800390)
-# Tags         : python, sliding window algorithm
+# Tags         : python, sliding window technique
 # Comment      :
 
 from sys import stdin, stdout

@@ -5,7 +5,7 @@
 # Date created : 2020-06-19
 # Description  :
 # Status       : Accepted (34526283)
-# Tags         : python, linear data structure, zonal computing olympiad 2012, floor binary search algorithm, ceil binary search
+# Tags         : python, linear data structure, zonal computing olympiad 2012, floor binary search, ceil binary search
 # Comment      :
 
 

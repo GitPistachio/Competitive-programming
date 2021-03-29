@@ -1,10 +1,10 @@
 # Project name : SPOJ: AGPC01F - Can you search?
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-16
 # Description  :
 # Status       : Accepted (23644182)
-# Tags         : python, sliding window
+# Tags         : python, sliding window technique
 # Comment      :
 
 def min_(x):

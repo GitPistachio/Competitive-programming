@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: BTCODE_F - Life Game
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-03-21
 * Description  :
 * Status       : Accepted (23463266)
-* Tags         : java, fast I/O, game theory, optimized brute force, dynamic-programming
+* Tags         : java, fast I/O, game theory, optimized brute force, dynamic programming, DP
 * Comment      :
 */
 

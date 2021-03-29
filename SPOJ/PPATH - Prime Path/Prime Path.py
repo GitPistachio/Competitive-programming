@@ -2,11 +2,11 @@
 # Link         : https://www.spoj.com/problems/PPATH/
 # Try it on    : https://ideone.com/DplhqG
 # Author       : Wojciech Raszka
-# E-mail       : contact@gitpistachio.site
+# E-mail       : contact@gitpistachio.com
 # Date created : 2020-06-01
 # Description  :
 # Status       : Accepted (26078892)
-# Tags         : python, indirected simple graph, binary search, prime numbers, queue, sieve of eratosthenes, breadth-first search, BFS
+# Tags         : python, indirected simple graph, binary search, prime numbers, queue, sieve of eratosthenes, breadth first search, BFS
 # Comment      :
 
 from queue import SimpleQueue

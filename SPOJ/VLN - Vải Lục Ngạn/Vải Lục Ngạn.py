@@ -1,10 +1,10 @@
 # Project name : SPOJ: VLN - Vải Lục Ngạn
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-11-08
 # Description  :
 # Status       : Accepted (24807755)
-# Tags         : python, sliding window algorithm
+# Tags         : python, sliding window technique
 # Comment      : 100 score
 
 from sys import stdin, stdout

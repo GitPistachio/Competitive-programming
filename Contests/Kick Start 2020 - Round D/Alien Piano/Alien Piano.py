@@ -5,7 +5,7 @@
 # Date created : 2020-07-12
 # Description  :
 # Status       : Accepted
-# Tags         : python, DP, dynamic-programming
+# Tags         : python, DP, dynamic programming
 # Comment      :
 
 from sys import stdin, stdout

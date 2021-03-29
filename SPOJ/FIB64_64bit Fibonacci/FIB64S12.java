@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: FIB64 - 64bit Fibonacci
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-18
 * Description  :
 * Status       : Accepted (23939458)
-* Tags         : java, math, fast I/O fibonacci sequence
+* Tags         : java, math, fast i/o, fibonacci sequence, integer sequence a000045 (oeis)
 * Comment      : 12000
 */
 

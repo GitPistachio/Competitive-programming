@@ -1,11 +1,11 @@
 # Project name : CodeChef: CONFLIP - Coin Flip
 # Link         : https://www.codechef.com/LRNDSA01/problems/CONFLIP
 # Author       : Wojciech Raszka
-# E-mail       : contact@gitpistachio
+# E-mail       : contact@gitpistachio.com
 # Date created : 2020-06-02
 # Description  :
 # Status       : Accepted (33570566)
-# Tags         : python, game theory, coin flip, sequence A004526 (OEIS)
+# Tags         : python, game theory, coin flip, integer sequence A004526 (OEIS)
 # Comment      :
 
 from sys import stdin, stdout

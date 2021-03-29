@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: HANGOVER - Hangover
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-04-02
 * Description  :
 * Status       : Accepted (23554826)
-* Tags         : java, fast I/O, math, harmonic series, block-stacking problem, dynamic-programming
+* Tags         : java, fast I/O, math, harmonic series, block-stacking problem, dynamic programming, DP
 * Comment      :
 */
 

@@ -1,3 +1,12 @@
+# Project name : SPOJ: EASYMRKS - Easy Marks
+# Author       : Wojciech Raszka
+# E-mail       : contact@gitpistachio.com
+# Date created : 
+# Description  :
+# Status       : 
+# Tags         : python
+# Comment      :
+
 import math
 
 T = int(input())

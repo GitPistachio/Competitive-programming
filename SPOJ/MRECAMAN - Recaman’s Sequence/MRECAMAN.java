@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: MRECAMAN - Recaman’s Sequence
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-17
 * Description  :
 * Status       : Accepted (23929359)
-* Tags         : java, fast I/O, Recaman's sequence A005132 (OEIS), precomputation
+* Tags         : java, fast I/O, Recaman's sequence, integer sequence A005132 (OEIS), precomputation
 * Comment      :
 */
 

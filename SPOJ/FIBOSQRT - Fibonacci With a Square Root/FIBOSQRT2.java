@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: FIBOSQRT - Fibonacci With a Square Root
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-12
 * Description  : A(n) = B(n) + x*C(n) for n > 2, where x = A(2) - A(1) - 3*A(0), C(n) = F(n)F(n - 1), B(n) = 2*(B(n - 1) + B(n - 2)) + n, B(0) = A(0), B(1) = A(1), B(2) = A(2)
 * Status       : Accepted (23909151)
-* Tags         : java, fast I/O, floor sqrt, fibonacci sequence A000045 (OEIS), integer sequence A079472(OEIS), integer sequence A007598 (OEIS), golden rectangle numbers A001654 (OEIS)
+* Tags         : java, fast I/O, floor sqrt, fibonacci sequence, integer sequence A000045 (OEIS), integer sequence A079472(OEIS), integer sequence A007598 (OEIS), golden rectangle numbers, integer sequence A001654 (OEIS)
 * Comment      : It turns out that C(n) is related to golden rectangle numbers which simplify its calculation
 */
 

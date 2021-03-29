@@ -1,10 +1,10 @@
 # Project name : SPOJ: MCOINS - Coins Game
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-27
 # Description  :
 # Status       : Accepted (23690922)
-# Tags         : python, dynamic-programming, game theory
+# Tags         : python, dynamic programming, DP, game theory
 # Comment      :
 
 K, L, m = map(int, raw_input().split())

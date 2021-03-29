@@ -1,11 +1,11 @@
 /*
 * Project name : SPOJ: FIBOSUM - Fibonacci Sum
 * Author       : Wojciech Raszka
-* E-mail       : gitpistachio@gmail.com
+* E-mail       : contact@gitpistachio.com
 * Date created : 2019-06-11
 * Description  : SF(n) Sum of first n elements of Fibonacci sequence is equal to SF(n) = F(n + 2) - 1, thus the problem is as simple as solvind the equation  F(m + 2) - F(n + 1)
 * Status       : Accepted (23906618)
-* Tags         : java, fast I/O, fibonacci sequence A000045 (OEIS), partial sum of Fibonacci numbers A000071 (OEIS)
+* Tags         : java, fast I/O, fibonacci sequence, integer sequence A000045 (OEIS), partial sum of Fibonacci numbers, integer sequence A000071 (OEIS)
 * Comment      :
 */
 

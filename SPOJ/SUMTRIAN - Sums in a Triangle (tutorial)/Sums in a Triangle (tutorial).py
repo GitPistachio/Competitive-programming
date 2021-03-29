@@ -1,10 +1,10 @@
 # Project name : SPOJ: SUMTRIAN - Sums in a Triangle (tutorial)
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-06-21
 # Description  :
 # Status       : Accepted (23955438)
-# Tags         : python, dynamic-programming
+# Tags         : python, dynamic programming, DP
 # Comment      :
 
 T = int(raw_input())

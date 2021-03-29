@@ -1,4 +1,13 @@
-//Solution of 24th problem in SPOJ called Small factorials
+/*
+* Project name : SPOJ: FCTRL2 - Small factorials
+* Author       : Wojciech Raszka
+* E-mail       : contact@gitpistachio.com
+* Date created : 
+* Description  :
+* Status       : java
+* Comment      :
+*/
+
 
 import java.util.Scanner;
 import java.math.BigInteger;

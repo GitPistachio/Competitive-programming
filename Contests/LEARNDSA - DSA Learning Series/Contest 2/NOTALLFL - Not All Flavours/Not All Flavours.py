@@ -5,7 +5,7 @@
 # Date created : 2020-06-19
 # Description  :
 # Status       : Accepted (34522326)
-# Tags         : python, linear data structure, sliding window algorithm, stack
+# Tags         : python, linear data structure, sliding window technique, stack
 # Comment      :
 
 
