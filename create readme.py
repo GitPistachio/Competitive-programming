@@ -144,7 +144,7 @@ def getProblems():
 
                 problem_details["fname"] = fname
 
-                script_link = ("https://github.com/GitPistachio/Competitive-programming/blob/master" +
+                script_link = ("" +
                                dirpath.replace(start_dir, "").replace("\\", "/") +
                                "/" + filename)
                 problem_details["script_link"] = urllib.parse.quote(script_link)

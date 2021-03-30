@@ -1,6 +1,6 @@
 # Project name : SPOJ: MMAXPER - Rectangles Perimeter
 # Author       : Wojciech Raszka
-# E-mail       : spoj@gitpistachio.site
+# E-mail       : contact@gitpistachio.com
 # Date created : 2020-05-16
 # Description  :
 # Status       : Accepted (25987978)

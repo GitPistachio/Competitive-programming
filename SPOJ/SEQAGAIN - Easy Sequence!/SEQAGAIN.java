@@ -5,7 +5,7 @@
 * Date created : 2019-05-14
 * Description  :
 * Status       : Accepted (23764591)
-* Tags         : java, fast I/O, modulo power, modular exponentiation, Fermat's little theorem, math, modulo arithmetic
+* Tags         : java, fast I/O, fast modular matrix exponentiation, Fermat's little theorem, math, modular arithmetic
 * Comment      : F(n) = (F(0)^k1)*(F(0)^k2), where k1, k2 could be calculated via matrix (k, k, 1, 0) exponentiation. Because k1, k2 could be large we use Fermat's theorem thus a^k1 mod p = a^K1 mod p, where K1 = k1 mod (p - 1)
 */
 

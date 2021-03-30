@@ -5,7 +5,7 @@
 * Date created : 2019-05-15
 * Description  :
 * Status       : Accepted (23769087)
-* Tags         : java, fast I/O, modulo power, modular exponentiation, Fermat's little theorem, math, modulo arithmetic, Euler's theorem, Euler's totient funcion, fibonacci sequence, integer sequence a000045 (oeis)
+* Tags         : java, fast I/O, fast modular matrix exponentiation, Fermat's little theorem, math, modular arithmetic, Euler's theorem, Euler's totient funcion, fibonacci sequence, integer sequence a000045 (oeis)
 * Comment      : Similar to SEQAGAIN for k = 1 (this matrix form is used to calculate Fibonacci sequence). You have to applay generalization of Euler's theorem for any integers not only coprimes.
 */
 

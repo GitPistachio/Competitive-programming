@@ -1,11 +1,11 @@
-# Project name : SPOJ: MMAXPER - Rectangles Perimeter
+# Project name : SPOJ: MPOW - Power of matrix
 # Link         : https://www.spoj.com/problems/MPOW/
 # Author       : Wojciech Raszka
-# E-mail       : spoj@gitpistachio.site
+# E-mail       : contact@gitpistachio.com
 # Date created : 2020-05-19
 # Description  :
 # Status       : Accepted (26005698)
-# Tags         : python, matrix, matrix expotentation
+# Tags         : python, math, modular arithmetic, matrix, fast modular matrix exponentiation, modular matrix multiplication
 # Comment      : 
 
 from sys import stdin, stdout

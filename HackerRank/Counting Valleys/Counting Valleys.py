@@ -6,7 +6,7 @@
 # Date created : 2020-06-28
 # Description  :
 # Status       : Accepted (166123320)
-# Tags         : python, sliding window algorithm
+# Tags         : python, sliding window technique
 # Comment      : 
 
 #!/bin/python3

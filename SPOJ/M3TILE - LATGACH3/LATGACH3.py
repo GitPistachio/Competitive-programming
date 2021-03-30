@@ -1,6 +1,6 @@
 # Project name : SPOJ: M3TILE - LATGACH3
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-14
 # Description  :
 # Status       : Accepted (23634235)

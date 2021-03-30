@@ -5,7 +5,7 @@
 * Date created : 2019-02-24
 * Description  :
 * Status       : Accepted (23289730)
-* Tags         : java, fast I/O, sum of odd number, integer sequence A005408 (OEIS), sum of even numbers, integer sequence A005843 (OEIS), sum of squares, integer sequence A000290 (OEIS), sum of cubes, integer sequence A000578 (OEIS)
+* Tags         : java, fast I/O, sum of odd numbers, integer sequence A005408 (OEIS), sum of even numbers, integer sequence A005843 (OEIS), sum of squares, integer sequence A000290 (OEIS), sum of cubes, integer sequence A000578 (OEIS)
 * Comment      :
 */
 

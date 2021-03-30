@@ -5,7 +5,7 @@
 # Date created : 2020-06-19
 # Description  :
 # Status       : Time Limit Exceeded (34542710)
-# Tags         : python, linear data structure, modular arithmetics, nearest smaller value algorithm
+# Tags         : python, linear data structure, modular arithmetic, nearest smaller value algorithm
 # Comment      :
 
 

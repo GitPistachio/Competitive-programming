@@ -4,7 +4,7 @@
 # Date created : 2019-02-26
 # Description  :
 # Status       : Accepted (23763713)
-# Tags         : python, math, GCD, greatest common divisor, fibonacci sequence, pisano period, modulo power, modular arithmetic, modular exponentiation
+# Tags         : python, math, GCD, greatest common divisor, fibonacci sequence, pisano period, modulo power, modular arithmetic, fast modular exponentiation
 # Comment      : Applying formula GCD(F(a), F(b)) = F(GCD(a, b)) we change problem to calculate n^2 fibonacci numbers. Further it could be reduce to max value of A_i if
 # Comment      : we precalculate all possible gcd(A_i, A_j). The maximum no of possible gcd is less than max(A_1, A_2, ..., A_n). The last problem is calculation fibonacci number for
 # Comment      : large numbers it could be solve using the fact F(a) mod m = F(r) mod m, where r = a mod pisano period. The pisano period for given modulo is 2000000016

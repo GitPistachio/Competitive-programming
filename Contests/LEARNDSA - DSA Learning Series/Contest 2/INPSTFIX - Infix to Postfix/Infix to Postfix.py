@@ -5,7 +5,7 @@
 # Date created : 2020-06-20
 # Description  :
 # Status       : Accepted (34543964)
-# Tags         : python, linear data structure, infix expression, postifx expression, rpn, reversed polish notation, Shunting-yard algorithm
+# Tags         : python, linear data structure, infix expression, postifx expression, rpn, reverse polish notation, Shunting-yard algorithm
 # Comment      :
 
 

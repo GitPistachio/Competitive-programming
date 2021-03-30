@@ -5,7 +5,7 @@
 # Date created : 2020-06-19
 # Description  :
 # Status       : Time Limit Exceeded (34522405)
-# Tags         : python, linear data structure, modular arithmetics
+# Tags         : python, linear data structure, modular arithmetic
 # Comment      :
 
 

@@ -248,6 +248,16 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">POLYMUL - Polynomial Multiplication</span>](/SPOJ/POLYMUL%20-%20Polynomial%20Multiplication/POLYMUL.java)
 [<span style="color:#B07219">POLYMUL - Polynomial Multiplication</span>](/SPOJ/POLYMUL%20-%20Polynomial%20Multiplication/POLYMUL2.java)
 [<span style="color:#B07219">VFMUL - Very Fast Multiplication</span>](/SPOJ/VFMUL%20-%20Very%20Fast%20Multiplication/VFMUL.java)
+### fast modular exponentiation
+[<span style="color:#3572A5">INS17M - Fibonacci and Easy GCD</span>](/SPOJ/INS17M%20-%20Fibonacci%20and%20Easy%20GCD/Fibonacci%20and%20Easy%20GCD.py)
+### fast modular matrix exponentiation
+[<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG.java)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX1.java)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX2.java)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX3.java)
+[<span style="color:#3572A5">MPOW - Power of matrix</span>](/SPOJ/MPOW%20-%20Power%20of%20matrix/Power%20of%20matrix.py)
+[<span style="color:#3572A5">SEQ - Recursive Sequence</span>](/SPOJ/SEQ%20-%20Recursive%20Sequence/SEQ.py)
+[<span style="color:#B07219">SEQAGAIN - Easy Sequence!</span>](/SPOJ/SEQAGAIN%20-%20Easy%20Sequence%21/SEQAGAIN.java)
 ### fermat last theorem
 [<span style="color:#89E051">CODEM2 - Problem2</span>](/SPOJ/CODEM2%20-%20Problem2/Problem2.sh)
 ### fermat's little theorem
@@ -626,13 +636,18 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">LOOPEXP - Loop Expectation</span>](/SPOJ/LOOPEXP%20-%20Loop%20Expectation/Loop%20Expectation.py)
 [<span style="color:#B07219">MARBLES - Marbles</span>](/SPOJ/MARBLES%20-%20Marbles/MARBLES.java)
 [<span style="color:#3572A5">MARBLES - Marbles</span>](/SPOJ/MARBLES%20-%20Marbles/Marbles.py)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX1.java)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX2.java)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX3.java)
 [<span style="color:#B07219">MATHII - Yet Another Mathematical Problem</span>](/SPOJ/MATHII%20-%20Yet%20Another%20Mathematical%20Problem/MATHII.java)
 [<span style="color:#3572A5">MEANSTRIC - Tricky Means</span>](/SPOJ/MEANSTRIC%20-%20Tricky%20Means/Tricky%20Means.py)
 [<span style="color:#3572A5">MOZGEOL - Jenny the GeoLover</span>](/SPOJ/MOZGEOL%20-%20Jenny%20the%20GeoLover/Jenny%20the%20GeoLover.py)
+[<span style="color:#3572A5">MPOW - Power of matrix</span>](/SPOJ/MPOW%20-%20Power%20of%20matrix/Power%20of%20matrix.py)
 [<span style="color:#3572A5">NSORT - Name Sorting</span>](/SPOJ/NSORT%20-%20Name%20Sorting/Name%20Sorting.py)
 [<span style="color:#3572A5">ROMAN008 - ROMAN NUMERALS</span>](/SPOJ/ROMAN008%20-%20ROMAN%20NUMERALS/ROMAN%20NUMERALS.py)
 [<span style="color:#3572A5">ROMANN - Roman Numerals</span>](/SPOJ/ROMANN%20-%20Roman%20Numerals/Roman%20Numerals.py)
 [<span style="color:#B07219">SAMER08F - Feynman</span>](/SPOJ/SAMER08F_Feynman/SAMER08F.java)
+[<span style="color:#3572A5">SEQ - Recursive Sequence</span>](/SPOJ/SEQ%20-%20Recursive%20Sequence/SEQ.py)
 [<span style="color:#B07219">SEQAGAIN - Easy Sequence!</span>](/SPOJ/SEQAGAIN%20-%20Easy%20Sequence%21/SEQAGAIN.java)
 [<span style="color:#3572A5">SOD - Sum of Divisors</span>](/SPOJ/SOD%20-%20Sum%20of%20Divisors/Sum%20of%20Divisors.py)
 [<span style="color:#B07219">STRONGN - Strong Number</span>](/SPOJ/STRONGN%20-%20Strong%20Number/STRONGN.java)
@@ -643,14 +658,9 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX1.java)
 [<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX2.java)
 [<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX3.java)
-[<span style="color:#3572A5">MMAXPER - Rectangles Perimeter</span>](/SPOJ/MPOW%20-%20Power%20of%20matrix/Power%20of%20matrix.py)
+[<span style="color:#3572A5">MPOW - Power of matrix</span>](/SPOJ/MPOW%20-%20Power%20of%20matrix/Power%20of%20matrix.py)
+[<span style="color:#3572A5">SEQ - Recursive Sequence</span>](/SPOJ/SEQ%20-%20Recursive%20Sequence/SEQ.py)
 [<span style="color:#3572A5">EVENM - Even Matrix</span>](/Contests/JUNE20B%20-%20June%20Challenge%202020%20Division%202/EVENM%20-%20Even%20Matrix/Even%20Matrix.py)
-### matrix exponentiation
-[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX1.java)
-[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX2.java)
-[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX3.java)
-### matrix expotentation
-[<span style="color:#3572A5">MMAXPER - Rectangles Perimeter</span>](/SPOJ/MPOW%20-%20Power%20of%20matrix/Power%20of%20matrix.py)
 ### maximum flooded area
 [<span style="color:#3572A5">HYDRO - Hydroelectric dams</span>](/SPOJ/HYDRO%20-%20Hydroelectric%20dams/Hydroelectric%20dams.py)
 ### maximum rectangle under the histogram
@@ -677,29 +687,34 @@ The repository of solutions to various problems from coding challenge websites. 
 ### minimum value on stack
 [<span style="color:#F34B7D">MINSTACK - Smallest on the Stack</span>](/SPOJ/MINSTACK%20-%20Smallest%20on%20the%20Stack/Smallest%20on%20the%20Stack.cpp)
 ### modular arithmetic
+[<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG.java)
+[<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG2.java)
 [<span style="color:#B07219">ETF - Euler Totient Function</span>](/SPOJ/ETF%20-%20Euler%20Totient%20Function/ETF.java)
 [<span style="color:#3572A5">INS17M - Fibonacci and Easy GCD</span>](/SPOJ/INS17M%20-%20Fibonacci%20and%20Easy%20GCD/Fibonacci%20and%20Easy%20GCD.py)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX1.java)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX2.java)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX3.java)
+[<span style="color:#3572A5">MPOW - Power of matrix</span>](/SPOJ/MPOW%20-%20Power%20of%20matrix/Power%20of%20matrix.py)
+[<span style="color:#3572A5">SEQ - Recursive Sequence</span>](/SPOJ/SEQ%20-%20Recursive%20Sequence/SEQ.py)
+[<span style="color:#B07219">SEQAGAIN - Easy Sequence!</span>](/SPOJ/SEQAGAIN%20-%20Easy%20Sequence%21/SEQAGAIN.java)
 [<span style="color:#3572A5">MULTHREE - Multiple of 3</span>](/Contests/LEARNDSA%20-%20DSA%20Learning%20Series/Contest%201/MULTHREE%20-%20Multiple%20of%203/MULTHREE%20-%20Multiple%20of%203.py)
-### modular arithmetics
 [<span style="color:#3572A5">CHFQUEUE - Chefs in Queue</span>](/Contests/LEARNDSA%20-%20DSA%20Learning%20Series/Contest%202/CHFQUEUE%20-%20Chefs%20in%20Queue/Chefs%20in%20Queue_v1.py)
 [<span style="color:#3572A5">CHFQUEUE - Chefs in Queue</span>](/Contests/LEARNDSA%20-%20DSA%20Learning%20Series/Contest%202/CHFQUEUE%20-%20Chefs%20in%20Queue/Chefs%20in%20Queue_v2.py)
+### modular dot product
+[<span style="color:#3572A5">SEQ - Recursive Sequence</span>](/SPOJ/SEQ%20-%20Recursive%20Sequence/SEQ.py)
 ### modular exponentiation
-[<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG.java)
 [<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG2.java)
-[<span style="color:#3572A5">INS17M - Fibonacci and Easy GCD</span>](/SPOJ/INS17M%20-%20Fibonacci%20and%20Easy%20GCD/Fibonacci%20and%20Easy%20GCD.py)
-[<span style="color:#B07219">SEQAGAIN - Easy Sequence!</span>](/SPOJ/SEQAGAIN%20-%20Easy%20Sequence%21/SEQAGAIN.java)
-### modulo arithmetic
-[<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG.java)
-[<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG2.java)
-[<span style="color:#B07219">SEQAGAIN - Easy Sequence!</span>](/SPOJ/SEQAGAIN%20-%20Easy%20Sequence%21/SEQAGAIN.java)
+### modular matrix multiplication
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX1.java)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX2.java)
+[<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX3.java)
+[<span style="color:#3572A5">MPOW - Power of matrix</span>](/SPOJ/MPOW%20-%20Power%20of%20matrix/Power%20of%20matrix.py)
+[<span style="color:#3572A5">SEQ - Recursive Sequence</span>](/SPOJ/SEQ%20-%20Recursive%20Sequence/SEQ.py)
 ### modulo power
-[<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG.java)
-[<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG2.java)
 [<span style="color:#3572A5">DAYOUT2C - Prime Or Not</span>](/SPOJ/DAYOUT2C%20-%20Prime%20Or%20Not/Prime%20Or%20Not.py)
 [<span style="color:#3572A5">INS17M - Fibonacci and Easy GCD</span>](/SPOJ/INS17M%20-%20Fibonacci%20and%20Easy%20GCD/Fibonacci%20and%20Easy%20GCD.py)
 [<span style="color:#3572A5">JADDOU3 - Jaddouic Sequence</span>](/SPOJ/JADDOU3%20-%20Jaddouic%20Sequence/Jaddouic%20Sequence.py)
 [<span style="color:#3572A5">PON - Prime or Not</span>](/SPOJ/PON%20-%20Prime%20or%20Not/Prime%20or%20Not.py)
-[<span style="color:#B07219">SEQAGAIN - Easy Sequence!</span>](/SPOJ/SEQAGAIN%20-%20Easy%20Sequence%21/SEQAGAIN.java)
 ### most significant digit
 [<span style="color:#3572A5">INTEST - Enormous Input Test</span>](/SPOJ/IIITD1%20-%20Those%20College%20Days%21/Those%20College%20Days%21.py)
 ### msd
@@ -857,7 +872,6 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">KNJIGE - KNJIGE</span>](/SPOJ/KNJIGE%20-%20KNJIGE/KNJIGE.py)
 ### reverse polish notation
 [<span style="color:#3572A5">RPNEVAL - Evaluate simple RPN expression</span>](/SPOJ/RPNEVAL%20-%20Evaluate%20simple%20RPN%20expression/Evaluate%20simple%20RPN%20expression.py)
-### reversed polish notation
 [<span style="color:#3572A5">INPSTFIX - Infix to Postfix</span>](/Contests/LEARNDSA%20-%20DSA%20Learning%20Series/Contest%202/INPSTFIX%20-%20Infix%20to%20Postfix/Infix%20to%20Postfix.py)
 ### right triangle
 [<span style="color:#3572A5">TAP2015H - Hugo s homework</span>](/SPOJ/BABA1%20-%20ARE%20YOU%20GOOD%20IN%20MATHS/ARE%20YOU%20GOOD%20IN%20MATHS.py)
@@ -893,8 +907,6 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">TDPRIMES - Printing some primes</span>](/SPOJ/TDPRIMES%20-%20Printing%20some%20primes/TDPRIMES.java)
 [<span style="color:#B07219">TDPRIMES - Printing some primes</span>](/SPOJ/TDPRIMES%20-%20Printing%20some%20primes/TDPRIMES2.java)
 [<span style="color:#B07219">TDPRIMES - Printing some primes</span>](/SPOJ/TDPRIMES%20-%20Printing%20some%20primes/TDPRIMES3.java)
-### sliding window algorithm
-[<span style="color:#3572A5">Counting Valleys</span>](/HackerRank/Counting%20Valleys/Counting%20Valleys.py)
 ### sliding window technique
 [<span style="color:#3572A5">AGPC01F - Can you search?</span>](/SPOJ/AGPC01F%20-%20Can%20you%20search/Can%20you%20search.py)
 [<span style="color:#B07219">HACKRNDM - Hacking the random number generator</span>](/SPOJ/HACKRNDM%20-%20Hacking%20the%20random%20number%20generator/HACKRNDM.java)
@@ -906,6 +918,7 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">VLN - Vải Lục Ngạn</span>](/SPOJ/VLN%20-%20V%E1%BA%A3i%20L%E1%BB%A5c%20Ng%E1%BA%A1n/V%E1%BA%A3i%20L%E1%BB%A5c%20Ng%E1%BA%A1n.py)
 [<span style="color:#B07219">WORKB - Working in Beijing</span>](/SPOJ/WORKB%20-%20Working%20in%20Beijing/WORKB.java)
 [<span style="color:#3572A5">NOTALLFL - Not All Flavours</span>](/Contests/LEARNDSA%20-%20DSA%20Learning%20Series/Contest%202/NOTALLFL%20-%20Not%20All%20Flavours/Not%20All%20Flavours.py)
+[<span style="color:#3572A5">Counting Valleys</span>](/HackerRank/Counting%20Valleys/Counting%20Valleys.py)
 ### smallest power of 2 greater than or equal to n
 [<span style="color:#3572A5">Locked Doors</span>](/Contests/Kick%20Start%202020%20-%20Round%20D/Locked%20Doors/Locked%20Doors_v2.py)
 ### smallest power of two greater than n
@@ -955,10 +968,9 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">SOD - Sum of Divisors</span>](/SPOJ/SOD%20-%20Sum%20of%20Divisors/Sum%20of%20Divisors.py)
 ### sum of even numbers
 [<span style="color:#B07219">SUMSCALC - Sums to calculate</span>](/SPOJ/SUMSCALC%20-%20Sums%20to%20calculate/SUMSCALC.java)
-### sum of odd number
-[<span style="color:#B07219">SUMSCALC - Sums to calculate</span>](/SPOJ/SUMSCALC%20-%20Sums%20to%20calculate/SUMSCALC.java)
 ### sum of odd numbers
 [<span style="color:#3572A5">MADODDSUM - Easy Odd Sum</span>](/SPOJ/MADODDSUM_Easy%20Odd%20Sum/Easy%20Odd%20Sum.py)
+[<span style="color:#B07219">SUMSCALC - Sums to calculate</span>](/SPOJ/SUMSCALC%20-%20Sums%20to%20calculate/SUMSCALC.java)
 ### sum of squares
 [<span style="color:#B07219">SUMSCALC - Sums to calculate</span>](/SPOJ/SUMSCALC%20-%20Sums%20to%20calculate/SUMSCALC.java)
 ### sum of squares of digits of previous term
@@ -1442,7 +1454,7 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#89E051">MOZSATDOW - Sharmeen and the day of week</span>](/SPOJ/MOZSATDOW%20-%20Sharmeen%20and%20the%20day%20of%20week/Sharmeen%20and%20the%20day%20of%20week.sh)
 [<span style="color:#3572A5">MOZSATLA - Sharmeen and the Lost Array</span>](/SPOJ/MOZSATLA%20-%20Sharmeen%20and%20the%20Lost%20Array/Sharmeen%20and%20the%20Lost%20Array.py)
 [<span style="color:#3572A5">MOZSLM - Sharmeen Loves Mozahid Loves Sharmeen [ EASY ]</span>](/SPOJ/MOZSLM%20-%20Sharmeen%20Loves%20Mozahid%20Loves%20Sharmeen%20%5B%20EASY%20%5D/Sharmeen%20Loves%20Mozahid%20Loves%20Sharmeen%20%5B%20EASY%20%5D.py)
-[<span style="color:#3572A5">MMAXPER - Rectangles Perimeter</span>](/SPOJ/MPOW%20-%20Power%20of%20matrix/Power%20of%20matrix.py)
+[<span style="color:#3572A5">MPOW - Power of matrix</span>](/SPOJ/MPOW%20-%20Power%20of%20matrix/Power%20of%20matrix.py)
 [<span style="color:#B07219">MRECAMAN - Recaman’s Sequence</span>](/SPOJ/MRECAMAN%20-%20Recaman%E2%80%99s%20Sequence/MRECAMAN.java)
 [<span style="color:#3572A5">MUL - Fast Multiplication</span>](/SPOJ/MUL%20-%20Fast%20Multiplication/Fast%20Multiplication.py)
 [<span style="color:#3572A5">MXMNDF - Differenza tra massimo e minimo in una lista</span>](/SPOJ/MXMNDF%20-%20Differenza%20tra%20massimo%20e%20minimo%20in%20una%20lista/Differenza%20tra%20massimo%20e%20minimo%20in%20una%20lista.py)
@@ -1512,6 +1524,7 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">SCP11B Alaska</span>](/SPOJ/SCPC11B_Alaska/Alaska.py)
 [<span style="color:#3572A5">SEC01 - Join</span>](/SPOJ/SEC01%20-%20Join/Join.py)
 [<span style="color:#89E051">SEC01 - Join</span>](/SPOJ/SEC01%20-%20Join/Join.sh)
+[<span style="color:#3572A5">SEQ - Recursive Sequence</span>](/SPOJ/SEQ%20-%20Recursive%20Sequence/SEQ.py)
 [<span style="color:#B07219">SEQAGAIN - Easy Sequence!</span>](/SPOJ/SEQAGAIN%20-%20Easy%20Sequence%21/SEQAGAIN.java)
 [<span style="color:#B07219">SILVER - Cut the Silver Bar</span>](/SPOJ/SILVER%20-%20Cut%20the%20Silver%20Bar/SILVER.java)
 [<span style="color:#3572A5">CRS - Crying Series</span>](/SPOJ/SIZECON%20-%20Size%20Contest/Size%20Contest.py)
