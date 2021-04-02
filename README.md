@@ -95,6 +95,8 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">CEQU - Crucial Equation</span>](/SPOJ/CEQU%20-%20Crucial%20Equation/CEQU.java)
 ### cantor prove of countability of the rational numbers
 [<span style="color:#3572A5">CANTON - Count on Cantor</span>](/SPOJ/CANTON%20-%20Count%20on%20Cantor/Count%20on%20Cantor.py)
+### card trick
+[<span style="color:#3572A5">CSUMQ - Cumulative Sum Query</span>](/SPOJ/CTRICK%20-%20Card%20Trick/CTRICK.py)
 ### cartesian tree
 [<span style="color:#3572A5">Locked Doors</span>](/Contests/Kick%20Start%202020%20-%20Round%20D/Locked%20Doors/Locked%20Doors_v2.py)
 ### ceil binary search
@@ -183,6 +185,8 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">MULTHREE - Multiple of 3</span>](/Contests/LEARNDSA%20-%20DSA%20Learning%20Series/Contest%201/MULTHREE%20-%20Multiple%20of%203/MULTHREE%20-%20Multiple%20of%203.py)
 ### divisor summation
 [<span style="color:#B07219">DIVSUM - Divisor Summation</span>](/SPOJ/DIVSUM%20-%20Divisor%20Summation/DIVSUM.java)
+### doubly linked list
+[<span style="color:#3572A5">CSUMQ - Cumulative Sum Query</span>](/SPOJ/CTRICK%20-%20Card%20Trick/CTRICK.py)
 ### dp
 [<span style="color:#B07219">ACODE - Alphacode</span>](/SPOJ/ACODE%20-%20Alphacode/ACODE.java)
 [<span style="color:#B07219">BTCODE_F - Life Game</span>](/SPOJ/BTCODE_F%20-%20Life%20Game/BTCODE_F.java)
@@ -252,6 +256,7 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">INS17M - Fibonacci and Easy GCD</span>](/SPOJ/INS17M%20-%20Fibonacci%20and%20Easy%20GCD/Fibonacci%20and%20Easy%20GCD.py)
 ### fast modular matrix exponentiation
 [<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG.java)
+[<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG2.java)
 [<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX1.java)
 [<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX2.java)
 [<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX3.java)
@@ -457,6 +462,8 @@ The repository of solutions to various problems from coding challenge websites. 
 ### integer sequence a002088 (oeis)
 [<span style="color:#B07219">DCEPCA03 - Totient Extreme</span>](/SPOJ/DCEPCA03%20-%20Totient%20Extreme/DCEPCA03.java)
 [<span style="color:#B07219">DCEPCA03 - Totient Extreme</span>](/SPOJ/DCEPCA03%20-%20Totient%20Extreme/DCEPCA032.java)
+### integer sequence a002262 (oeis)
+[<span style="color:#3572A5">CSUMQ - Cumulative Sum Query</span>](/SPOJ/CTRICK%20-%20Card%20Trick/CTRICK.py)
 ### integer sequence a002376 (oeis)
 [<span style="color:#B07219">CUBNUM - Cube Numbers</span>](/SPOJ/CUBNUM%20-%20Cube%20Numbers/CUBNUM.java)
 ### integer sequence a004526 (oeis)
@@ -702,8 +709,6 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">CHFQUEUE - Chefs in Queue</span>](/Contests/LEARNDSA%20-%20DSA%20Learning%20Series/Contest%202/CHFQUEUE%20-%20Chefs%20in%20Queue/Chefs%20in%20Queue_v2.py)
 ### modular dot product
 [<span style="color:#3572A5">SEQ - Recursive Sequence</span>](/SPOJ/SEQ%20-%20Recursive%20Sequence/SEQ.py)
-### modular exponentiation
-[<span style="color:#B07219">BFALG - Brute-force Algorithm EXTREME</span>](/SPOJ/BFALG%20-%20Brute-force%20Algorithm%20EXTREME/BFALG2.java)
 ### modular matrix multiplication
 [<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX1.java)
 [<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX2.java)
@@ -1276,6 +1281,7 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">CSHOWB - Sir and the Guitar</span>](/SPOJ/CSHOWB_Sir%20and%20the%20Guitar/CSHOWB.java)
 [<span style="color:#B07219">CSHOWB - Sir and the Guitar</span>](/SPOJ/CSHOWB_Sir%20and%20the%20Guitar/CSHOWB2.java)
 [<span style="color:#3572A5">G11 - Binario</span>](/SPOJ/CSUMQ%20-%20Cumulative%20Sum%20Query/Cumulative%20Sum%20Query.py)
+[<span style="color:#3572A5">CSUMQ - Cumulative Sum Query</span>](/SPOJ/CTRICK%20-%20Card%20Trick/CTRICK.py)
 [<span style="color:#3572A5">Candy III</span>](/SPOJ/CUBES_Perfect%20Cubes/Perfect%20Cubes.py)
 [<span style="color:#B07219">CUBNUM - Cube Numbers</span>](/SPOJ/CUBNUM%20-%20Cube%20Numbers/CUBNUM.java)
 [<span style="color:#89E051">DAYOUT2A - Reverse Words</span>](/SPOJ/DAYOUT2A%20-%20Reverse%20Words/Reverse%20Words.sh)

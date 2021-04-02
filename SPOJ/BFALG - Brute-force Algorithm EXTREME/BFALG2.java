@@ -5,7 +5,7 @@
 * Date created : 2019-05-15
 * Description  :
 * Status       : Accepted (23770449)
-* Tags         : java, fast I/O, modular exponentiation, Fermat's little theorem, math, modular arithmetic, Euler's theorem, Euler's totient funcion, fibonacci sequence, integer sequence a000045 (oeis)
+* Tags         : java, fast I/O, fast modular matrix exponentiation, Fermat's little theorem, math, modular arithmetic, Euler's theorem, Euler's totient funcion, fibonacci sequence, integer sequence a000045 (oeis)
 * Comment      : with phi optimization
 */
 

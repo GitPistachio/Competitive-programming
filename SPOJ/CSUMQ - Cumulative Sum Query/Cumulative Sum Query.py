@@ -1,6 +1,6 @@
 # Project name : SPOJ: G11 - Binario
 # Author       : Wojciech Raszka
-# E-mail       : gitpistachio@gmail.com
+# E-mail       : contact@gitpistachio.com
 # Date created : 2019-04-02
 # Description  :
 # Status       : Accepted (23562331)
