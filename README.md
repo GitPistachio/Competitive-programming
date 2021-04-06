@@ -83,6 +83,9 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">VFMUL - Very Fast Multiplication</span>](/SPOJ/VFMUL%20-%20Very%20Fast%20Multiplication/VFMUL.java)
 ### block-stacking problem
 [<span style="color:#B07219">HANGOVER - Hangover</span>](/SPOJ/HANGOVER%20-%20Hangover/HANGOVER.java)
+### bounded spigot algorithm for the digits of pi
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi2.py)
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi3.py)
 ### breadth first search
 [<span style="color:#3572A5">ONEZERO - Ones and zeros</span>](/SPOJ/ONEZERO%20-%20Ones%20and%20zeros/Ones%20and%20zeros.py)
 [<span style="color:#3572A5">PPATH - Prime Path</span>](/SPOJ/PPATH%20-%20Prime%20Path/Prime%20Path.py)
@@ -691,6 +694,8 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">MINSTACK - Smallest on the Stack</span>](/SPOJ/MINSTACK%20-%20Smallest%20on%20the%20Stack/MINSTACK.java)
 ### minimum bounding rectangle
 [<span style="color:#3572A5">HS12MBR - Minimum Bounding Rectangle</span>](/SPOJ/HS12MBR%20-%20Minimum%20Bounding%20Rectangle/Minimum%20Bounding%20Rectangle.py)
+### minimum no of swaps to sort array
+[<span style="color:#3572A5">Lily's Homework</span>](/HackerRank/Lily%27s%20Homework/Lily%27s%20Homework.py)
 ### minimum value on stack
 [<span style="color:#F34B7D">MINSTACK - Smallest on the Stack</span>](/SPOJ/MINSTACK%20-%20Smallest%20on%20the%20Stack/Smallest%20on%20the%20Stack.cpp)
 ### modular arithmetic
@@ -789,6 +794,10 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">CF224 - Polygon</span>](/CodeChef/CF224%20-%20Polygon/CF224%20-%20Polygon.py)
 ### physics
 [<span style="color:#F34B7D">HAMSTER1 - Hamster flight</span>](/SPOJ/HAMSTER1%20-%20Hamster%20flight/Hamster%20flight.cpp)
+### pi
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi.py)
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi2.py)
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi3.py)
 ### pi function
 [<span style="color:#89E051">DAYOUT2H - How Many Primes</span>](/SPOJ/DAYOUT2H%20-%20How%20Many%20Primes/How%20Many%20Primes.sh)
 ### pigeonhole principle
@@ -938,6 +947,11 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">SSORT - Silly Sort</span>](/SPOJ/SSORT%20-%20Silly%20Sort/SSORT.java)
 [<span style="color:#B07219">TSORT - Turbo Sort</span>](/SPOJ/TSORT%20-%20Turbo%20Sort/TSORT.java)
 [<span style="color:#B07219">YODANESS - Yodaness Level</span>](/SPOJ/YODANESS%20-%20Yodaness%20Level/YODANESS.java)
+[<span style="color:#3572A5">Lily's Homework</span>](/HackerRank/Lily%27s%20Homework/Lily%27s%20Homework.py)
+### spigot algorithm
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi.py)
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi2.py)
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi3.py)
 ### spiral
 [<span style="color:#B07219">SPTTRN2 - Straight Line Spiral Pattern (Act 2)</span>](/SPOJ/SPTTRN2%20-%20Straight%20Line%20Spiral%20Pattern%20%28Act%202%29/SPTTRN2.java)
 ### stack
@@ -949,6 +963,10 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">Birthday Cake Candles</span>](/HackerRank/Birthday%20Cake%20Candles/Birthday%20Cake%20Candles.py)
 [<span style="color:#3572A5">Mini - Max Sum</span>](/HackerRank/Mini-Max%20Sum/Mini-Max%20Sum.py)
 [<span style="color:#3572A5">Staircase</span>](/HackerRank/Staircase/Staircase.py)
+### streaming algorithm
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi.py)
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi2.py)
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi3.py)
 ### strict graph
 [<span style="color:#B07219">PT07Y - Is it a tree</span>](/SPOJ/PT07Y%20-%20Is%20it%20a%20tree/PT07Y.java)
 ### string manipulation
@@ -1004,6 +1022,8 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">TREDIFF - Tree difference</span>](/Contests/LTIME84B%20-%20May%20Lunchtime%202020%20Division%202/TREDIFF%20-%20Tree%20difference/Tree%20difference.py)
 ### triangle
 [<span style="color:#3572A5">G10185 - TrianguloRectangulo Grado 10</span>](/SPOJ/G10185%20-%20TrianguloRectangulo%20Grado%2010/TrianguloRectangulo%20Grado%2010.py)
+### unbounded spigot algorithm for the digits of pi
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi.py)
 ### unimodal function
 [<span style="color:#F34B7D">HAMSTER1 - Hamster flight</span>](/SPOJ/HAMSTER1%20-%20Hamster%20flight/Hamster%20flight.cpp)
 ### unsigned stirling numbers of first kind
@@ -1131,6 +1151,7 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">itertools.product()</span>](/HackerRank/itertools.product%28%29/itertools.product%28%29.py)
 [<span style="color:#3572A5">Jumping on the Clouds</span>](/HackerRank/Jumping%20on%20the%20Clouds/Jumping%20on%20the%20Clouds.py)
 [<span style="color:#3572A5">Kangaroo</span>](/HackerRank/Kangaroo/Kangaroo.py)
+[<span style="color:#3572A5">Lily's Homework</span>](/HackerRank/Lily%27s%20Homework/Lily%27s%20Homework.py)
 [<span style="color:#3572A5">List Comprehensions</span>](/HackerRank/List%20Comprehensions/List%20Comprehensions.py)
 [<span style="color:#3572A5">Lists</span>](/HackerRank/Lists/Lists.py)
 [<span style="color:#3572A5">Loops</span>](/HackerRank/Loops/Loops.py)
@@ -1487,6 +1508,9 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">PCROSS1 - Cross Pattern (Act 1)</span>](/SPOJ/PCROSS1%20-%20Cross%20Pattern%20%28Act%201%29/PCROSS1.java)
 [<span style="color:#B07219">PCROSS1 - Cross Pattern (Act 1)</span>](/SPOJ/PCROSS2%20-%20Cross%20Pattern%20%28Act%202%29/PCROSS2.java)
 [<span style="color:#3572A5">PGR01 - Progressions</span>](/SPOJ/PGR01%20-%20Progressions/Progressions.py)
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi.py)
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi2.py)
+[<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi3.py)
 [<span style="color:#B07219">PL - Palindrome Lover</span>](/SPOJ/PL%20-%20Palindrome%20Lover/PL.java)
 [<span style="color:#3572A5">PLAYGAME - PLAYGAME</span>](/SPOJ/PLAYGAME_PLAYGAME/PLAYGAME.py)
 [<span style="color:#198CE7">PLCNUM1 - Place the Numbers I</span>](/SPOJ/PLCNUM1_Place%20the%20Numbers%20I/4245_Place%20the%20Numbers%20I.R)
