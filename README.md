@@ -360,6 +360,7 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">CIRCLEDIV - Euler Puzzle</span>](/SPOJ/CIRCLEDIV%20-%20Euler%20Puzzle/CIRCLEDIV.java)
 [<span style="color:#3572A5">HS12MBR - Minimum Bounding Rectangle</span>](/SPOJ/HS12MBR%20-%20Minimum%20Bounding%20Rectangle/Minimum%20Bounding%20Rectangle.py)
 [<span style="color:#3572A5">MOZGEOL - Jenny the GeoLover</span>](/SPOJ/MOZGEOL%20-%20Jenny%20the%20GeoLover/Jenny%20the%20GeoLover.py)
+[<span style="color:#3572A5">Find Angle MBC</span>](/HackerRank/Find%20Angle%20MBC/Find%20Angle%20MBC.py)
 ### gift wrapping algorithm
 [<span style="color:#3572A5">HS12MBR - Minimum Bounding Rectangle</span>](/SPOJ/HS12MBR%20-%20Minimum%20Bounding%20Rectangle/Minimum%20Bounding%20Rectangle.py)
 ### golden rectangle numbers
@@ -467,6 +468,8 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">DCEPCA03 - Totient Extreme</span>](/SPOJ/DCEPCA03%20-%20Totient%20Extreme/DCEPCA032.java)
 ### integer sequence a002262 (oeis)
 [<span style="color:#3572A5">CSUMQ - Cumulative Sum Query</span>](/SPOJ/CTRICK%20-%20Card%20Trick/CTRICK.py)
+### integer sequence a002275 (oeis)
+[<span style="color:#3572A5">Triangle Quest 2</span>](/HackerRank/Triangle%20Quest%202/Triangle%20Quest%202.py)
 ### integer sequence a002376 (oeis)
 [<span style="color:#B07219">CUBNUM - Cube Numbers</span>](/SPOJ/CUBNUM%20-%20Cube%20Numbers/CUBNUM.java)
 ### integer sequence a004526 (oeis)
@@ -533,10 +536,10 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#89E051">KIDZEE1N - Rectangle Intersection</span>](/SPOJ/KIDZEE1N%20-%20Rectangle%20Intersection/Rectangle%20Intersection.sh)
 ### inveerse fast fourier transform
 [<span style="color:#B07219">POLYMUL - Polynomial Multiplication</span>](/SPOJ/POLYMUL%20-%20Polynomial%20Multiplication/POLYMUL2.java)
-### inverse count
-[<span style="color:#B07219">YODANESS - Yodaness Level</span>](/SPOJ/YODANESS%20-%20Yodaness%20Level/YODANESS.java)
-### inversion count
+### inversions count
 [<span style="color:#B07219">INVCNT - Inversion Count</span>](/SPOJ/INVCNT_Inversion%20Count/INVCNT.java)
+[<span style="color:#B07219">YODANESS - Yodaness Level</span>](/SPOJ/YODANESS%20-%20Yodaness%20Level/YODANESS.java)
+[<span style="color:#3572A5">Insertion Sort Advanced Analysis</span>](/HackerRank/Insertion%20Sort%20Advanced%20Analysis/Insertion%20Sort%20Advanced%20Analysis.py)
 ### iteger sequence a004290 (oeis)
 [<span style="color:#3572A5">ONEZERO - Ones and zeros</span>](/SPOJ/ONEZERO%20-%20Ones%20and%20zeros/Ones%20and%20zeros.py)
 ### iterative depth firsh traversal
@@ -664,6 +667,9 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">Easy calculation</span>](/SPOJ/TRIGALGE_Easy%20Calculation/Easy%20Calculation.py)
 [<span style="color:#3572A5">WILLITST - Will it ever stop</span>](/SPOJ/WILLITST%20-%20Will%20it%20ever%20stop/Will%20it%20ever%20stop.py)
 [<span style="color:#B07219">ZCR - Zen And His Crush</span>](/SPOJ/ZCR%20-%20Zen%20And%20His%20Crush/ZCR.java)
+[<span style="color:#3572A5">Find Angle MBC</span>](/HackerRank/Find%20Angle%20MBC/Find%20Angle%20MBC.py)
+[<span style="color:#3572A5">Iterables and Iterators</span>](/HackerRank/Iterables%20and%20Iterators/Iterables%20and%20Iterators.py)
+[<span style="color:#3572A5">Triangle Quest 2</span>](/HackerRank/Triangle%20Quest%202/Triangle%20Quest%202.py)
 ### matrix
 [<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX1.java)
 [<span style="color:#B07219">MATEX - Matrix Exponentiation</span>](/SPOJ/MATEX%20-%20Matrix%20Exponentiation/MATEX2.java)
@@ -677,6 +683,8 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">ZCO15004 - Rectangle</span>](/Contests/LEARNDSA%20-%20DSA%20Learning%20Series/Contest%202/ZCO15004%20-%20Rectangle/ZCO15004%20-%20Rectangle.py)
 ### median of three quick sort
 [<span style="color:#B07219">TSORT - Turbo Sort</span>](/SPOJ/TSORT%20-%20Turbo%20Sort/TSORT.java)
+### merege sort
+[<span style="color:#3572A5">Insertion Sort Advanced Analysis</span>](/HackerRank/Insertion%20Sort%20Advanced%20Analysis/Insertion%20Sort%20Advanced%20Analysis.py)
 ### merge sort
 [<span style="color:#B07219">INVCNT - Inversion Count</span>](/SPOJ/INVCNT_Inversion%20Count/INVCNT.java)
 [<span style="color:#B07219">TSORT - Turbo Sort</span>](/SPOJ/TSORT%20-%20Turbo%20Sort/TSORT.java)
@@ -774,6 +782,8 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">HAPPYTL - Happy Telephones</span>](/SPOJ/HAPPYTL%20-%20Happy%20Telephones/HAPPYTL.java)
 ### palindrome
 [<span style="color:#B07219">PL - Palindrome Lover</span>](/SPOJ/PL%20-%20Palindrome%20Lover/PL.java)
+[<span style="color:#3572A5">Highest Value Palindrome</span>](/HackerRank/Highest%20Value%20Palindrome/Highest%20Value%20Palindrome.py)
+[<span style="color:#3572A5">The Love - Letter Mystery</span>](/HackerRank/The%20Love-Letter%20Mystery/The%20Love-Letter%20Mystery.py)
 ### parser
 [<span style="color:#3572A5">COMPILER - Compilers and parsers</span>](/Contests/LEARNDSA%20-%20DSA%20Learning%20Series/Contest%202/COMPILER%20-%20Compilers%20and%20parsers/COMPILER%20-%20Compilers%20and%20parsers.py)
 ### partial sum of fibonacci numbers
@@ -851,6 +861,8 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">TDPRIMES - Printing some primes</span>](/SPOJ/TDPRIMES%20-%20Printing%20some%20primes/TDPRIMES2.java)
 [<span style="color:#B07219">TDPRIMES - Printing some primes</span>](/SPOJ/TDPRIMES%20-%20Printing%20some%20primes/TDPRIMES3.java)
 [<span style="color:#3572A5">Running Time and Complexity</span>](/HackerRank/30%20Days%20of%20Code/Day%2025%20Running%20Time%20and%20Complexity/Running%20Time%20and%20Complexity.py)
+### probability
+[<span style="color:#3572A5">Iterables and Iterators</span>](/HackerRank/Iterables%20and%20Iterators/Iterables%20and%20Iterators.py)
 ### probability of k heads from n simultaneously tossed biased coins
 [<span style="color:#B07219">ZCR - Zen And His Crush</span>](/SPOJ/ZCR%20-%20Zen%20And%20His%20Crush/ZCR.java)
 ### probability theory
@@ -889,6 +901,7 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">INPSTFIX - Infix to Postfix</span>](/Contests/LEARNDSA%20-%20DSA%20Learning%20Series/Contest%202/INPSTFIX%20-%20Infix%20to%20Postfix/Infix%20to%20Postfix.py)
 ### right triangle
 [<span style="color:#3572A5">TAP2015H - Hugo s homework</span>](/SPOJ/BABA1%20-%20ARE%20YOU%20GOOD%20IN%20MATHS/ARE%20YOU%20GOOD%20IN%20MATHS.py)
+[<span style="color:#3572A5">Find Angle MBC</span>](/HackerRank/Find%20Angle%20MBC/Find%20Angle%20MBC.py)
 ### right-angle trinalge
 [<span style="color:#3572A5">MOZGEOL - Jenny the GeoLover</span>](/SPOJ/MOZGEOL%20-%20Jenny%20the%20GeoLover/Jenny%20the%20GeoLover.py)
 ### roman numerals
@@ -947,6 +960,7 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#B07219">SSORT - Silly Sort</span>](/SPOJ/SSORT%20-%20Silly%20Sort/SSORT.java)
 [<span style="color:#B07219">TSORT - Turbo Sort</span>](/SPOJ/TSORT%20-%20Turbo%20Sort/TSORT.java)
 [<span style="color:#B07219">YODANESS - Yodaness Level</span>](/SPOJ/YODANESS%20-%20Yodaness%20Level/YODANESS.java)
+[<span style="color:#3572A5">Insertion Sort Advanced Analysis</span>](/HackerRank/Insertion%20Sort%20Advanced%20Analysis/Insertion%20Sort%20Advanced%20Analysis.py)
 [<span style="color:#3572A5">Lily's Homework</span>](/HackerRank/Lily%27s%20Homework/Lily%27s%20Homework.py)
 ### spigot algorithm
 [<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi.py)
@@ -954,6 +968,30 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi3.py)
 ### spiral
 [<span style="color:#B07219">SPTTRN2 - Straight Line Spiral Pattern (Act 2)</span>](/SPOJ/SPTTRN2%20-%20Straight%20Line%20Spiral%20Pattern%20%28Act%202%29/SPTTRN2.java)
+### sql
+[<span style="color:#EFEFEF">African Cities</span>](/HackerRank/African%20Cities/African%20Cities.sql)
+[<span style="color:#EFEFEF">Average Population of Each Continent</span>](/HackerRank/Average%20Population%20of%20Each%20Continent/Average%20Population%20of%20Each%20Continent.sql)
+[<span style="color:#EFEFEF">Employee Names</span>](/HackerRank/Employee%20Names/Employee%20Names.sql)
+[<span style="color:#EFEFEF">Employee Salaries</span>](/HackerRank/Employee%20Salaries/Employee%20Salaries.sql)
+[<span style="color:#EFEFEF">Higher Than 75 Marks</span>](/HackerRank/Higher%20Than%2075%20Marks/Higher%20Than%2075%20Marks.sql)
+[<span style="color:#EFEFEF">Japanese Cities' Attributes</span>](/HackerRank/Japanese%20Cities%27%20Attributes/Japanese%20Cities%27%20Attributes.sql)
+[<span style="color:#EFEFEF">Japanese Cities' Names</span>](/HackerRank/Japanese%20Cities%27%20Names/Japanese%20Cities%27%20Names.sql)
+[<span style="color:#EFEFEF">Revising the Select Query I</span>](/HackerRank/Revising%20the%20Select%20Query%20I/Revising%20the%20Select%20Query%20I.sql)
+[<span style="color:#EFEFEF">Revising the Select Query II</span>](/HackerRank/Revising%20the%20Select%20Query%20II/Revising%20the%20Select%20Query%20II.sql)
+[<span style="color:#EFEFEF">Select All</span>](/HackerRank/Select%20All/Select%20All.sql)
+[<span style="color:#EFEFEF">Select By ID</span>](/HackerRank/Select%20By%20ID/Select%20By%20ID.sql)
+[<span style="color:#EFEFEF">Type of Triangle</span>](/HackerRank/Type%20of%20Triangle/Type%20of%20Triangle.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 1</span>](/HackerRank/Weather%20Observation%20Station%201/Weather%20Observation%20Station%201.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 10</span>](/HackerRank/Weather%20Observation%20Station%2010/Weather%20Observation%20Station%2010.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 11</span>](/HackerRank/Weather%20Observation%20Station%2011/Weather%20Observation%20Station%2011.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 12</span>](/HackerRank/Weather%20Observation%20Station%2012/Weather%20Observation%20Station%2012.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 3</span>](/HackerRank/Weather%20Observation%20Station%203/Weather%20Observation%20Station%203.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 4</span>](/HackerRank/Weather%20Observation%20Station%204/Weather%20Observation%20Station%204.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 5</span>](/HackerRank/Weather%20Observation%20Station%205/Weather%20Observation%20Station%205.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 6</span>](/HackerRank/Weather%20Observation%20Station%206/Weather%20Observation%20Station%206.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 7</span>](/HackerRank/Weather%20Observation%20Station%207/Weather%20Observation%20Station%207.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 8</span>](/HackerRank/Weather%20Observation%20Station%208/Weather%20Observation%20Station%208.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 9</span>](/HackerRank/Weather%20Observation%20Station%209/Weather%20Observation%20Station%209.sql)
 ### stack
 [<span style="color:#B07219">MINSTACK - Smallest on the Stack</span>](/SPOJ/MINSTACK%20-%20Smallest%20on%20the%20Stack/MINSTACK.java)
 [<span style="color:#F34B7D">MINSTACK - Smallest on the Stack</span>](/SPOJ/MINSTACK%20-%20Smallest%20on%20the%20Stack/Smallest%20on%20the%20Stack.cpp)
@@ -1004,6 +1042,8 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#F34B7D">HAMSTER1 - Hamster flight</span>](/SPOJ/HAMSTER1%20-%20Hamster%20flight/Hamster%20flight.cpp)
 ### ternary search algorithm
 [<span style="color:#3572A5">KOPC12A - K12 - Building Construction</span>](/SPOJ/KOPC12A%20-%20K12%20-%20Building%20Construction/K12%20-%20Building%20Construction.py)
+### thales's theorem
+[<span style="color:#3572A5">Find Angle MBC</span>](/HackerRank/Find%20Angle%20MBC/Find%20Angle%20MBC.py)
 ### the levenshtein distance
 [<span style="color:#3572A5">EDIST - Edit distance</span>](/SPOJ/EDIST%20-%20Edit%20distance/Edit%20distance.py)
 ### the parity of a stirling number of the second kind
@@ -1022,6 +1062,9 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">TREDIFF - Tree difference</span>](/Contests/LTIME84B%20-%20May%20Lunchtime%202020%20Division%202/TREDIFF%20-%20Tree%20difference/Tree%20difference.py)
 ### triangle
 [<span style="color:#3572A5">G10185 - TrianguloRectangulo Grado 10</span>](/SPOJ/G10185%20-%20TrianguloRectangulo%20Grado%2010/TrianguloRectangulo%20Grado%2010.py)
+[<span style="color:#EFEFEF">Type of Triangle</span>](/HackerRank/Type%20of%20Triangle/Type%20of%20Triangle.sql)
+### trigonometry
+[<span style="color:#3572A5">Find Angle MBC</span>](/HackerRank/Find%20Angle%20MBC/Find%20Angle%20MBC.py)
 ### unbounded spigot algorithm for the digits of pi
 [<span style="color:#3572A5">PIVAL - Digits of Pi</span>](/SPOJ/PIVAL%20-%20Digits%20of%20Pi/Digits%20of%20Pi.py)
 ### unimodal function
@@ -1124,31 +1167,51 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">Dictionaries and Maps</span>](/HackerRank/30%20Days%20of%20Code/Day%208%20Dictionaries%20and%20Maps/Dictionaries%20and%20Maps.py)
 [<span style="color:#3572A5">Recursion 3</span>](/HackerRank/30%20Days%20of%20Code/Day%209%20Recursion%203/Recursion%203.py)
 [<span style="color:#3572A5">A Very Big Sum</span>](/HackerRank/A%20Very%20Big%20Sum/A%20Very%20Big%20Sum.py)
+[<span style="color:#EFEFEF">African Cities</span>](/HackerRank/African%20Cities/African%20Cities.sql)
 [<span style="color:#3572A5">Alphabet Rangoli</span>](/HackerRank/Alphabet%20Rangoli/Alphabet%20Rangoli.py)
 [<span style="color:#3572A5">Alternating Characters</span>](/HackerRank/Alternating%20Characters/Alternating%20Characters.py)
 [<span style="color:#3572A5">Apple and Orange</span>](/HackerRank/Apple%20and%20Orange/Apple%20and%20Orange.py)
 [<span style="color:#3572A5">Arithmetic Operators</span>](/HackerRank/Arithmetic%20Operators/Arithmetic%20Operators.py)
 [<span style="color:#3572A5">Array Manipulation</span>](/HackerRank/Array%20Manipulation/Array%20Manipulation.py)
+[<span style="color:#EFEFEF">Average Population of Each Continent</span>](/HackerRank/Average%20Population%20of%20Each%20Continent/Average%20Population%20of%20Each%20Continent.sql)
+[<span style="color:#3572A5">Beautiful Binary String</span>](/HackerRank/Beautiful%20Binary%20String/Beautiful%20Binary%20String.py)
 [<span style="color:#3572A5">Between Two Sets</span>](/HackerRank/Between%20Two%20Sets/Between%20Two%20Sets.py)
 [<span style="color:#3572A5">Birthday Cake Candles</span>](/HackerRank/Birthday%20Cake%20Candles/Birthday%20Cake%20Candles.py)
+[<span style="color:#3572A5">Calendar Module</span>](/HackerRank/Calendar%20Module/Calendar%20Module.py)
 [<span style="color:#3572A5">Capitalize!</span>](/HackerRank/Capitalize%21/Capitalize%21.py)
 [<span style="color:#3572A5">collections.Counter()</span>](/HackerRank/collections.Counter%28%29/collections.Counter%28%29.py)
+[<span style="color:#3572A5">Collections.namedtuple()</span>](/HackerRank/Collections.namedtuple%28%29/Collections.namedtuple%28%29.py)
+[<span style="color:#3572A5">Collections.OrderedDict()</span>](/HackerRank/Collections.OrderedDict%28%29/Collections.OrderedDict%28%29.py)
+[<span style="color:#3572A5">Company Logo</span>](/HackerRank/Company%20Logo/Company%20Logo.py)
 [<span style="color:#3572A5">Compare the Triplets</span>](/HackerRank/Compare%20the%20Triplets/Compare%20the%20Triplets.py)
+[<span style="color:#3572A5">Compress the String!</span>](/HackerRank/Compress%20the%20String%21/Compress%20the%20String%21.py)
 [<span style="color:#3572A5">Count Triplets</span>](/HackerRank/Count%20Triplets/Count%20Triplets.py)
 [<span style="color:#3572A5">Counting Valleys</span>](/HackerRank/Counting%20Valleys/Counting%20Valleys.py)
+[<span style="color:#3572A5">DefaultDict Tutorial</span>](/HackerRank/DefaultDict%20Tutorial/DefaultDict%20Tutorial.py)
 [<span style="color:#3572A5">String Formatting</span>](/HackerRank/Designer%20Door%20Mat/Designer%20Door%20Mat.py)
 [<span style="color:#3572A5">Diagonal Difference</span>](/HackerRank/Diagonal%20Difference/Diagonal%20Difference.py)
+[<span style="color:#EFEFEF">Employee Names</span>](/HackerRank/Employee%20Names/Employee%20Names.sql)
+[<span style="color:#EFEFEF">Employee Salaries</span>](/HackerRank/Employee%20Salaries/Employee%20Salaries.sql)
 [<span style="color:#3572A5">Find a string</span>](/HackerRank/Find%20a%20string/Find%20a%20string.py)
+[<span style="color:#3572A5">Find Angle MBC</span>](/HackerRank/Find%20Angle%20MBC/Find%20Angle%20MBC.py)
 [<span style="color:#3572A5">Find the Runner - Up Score!</span>](/HackerRank/Find%20the%20Runner-Up%20Score%21/Find%20the%20Runner-Up%20Score%21.py)
 [<span style="color:#3572A5">Finding the percentage</span>](/HackerRank/Finding%20the%20percentage/Finding%20the%20percentage.py)
 [<span style="color:#3572A5">Fraudulent Activity Notifications</span>](/HackerRank/Fraudulent%20Activity%20Notifications/Fraudulent%20Activity%20Notifications.py)
 [<span style="color:#3572A5">Frequency Queries</span>](/HackerRank/Frequency%20Queries/Frequency%20Queries.py)
+[<span style="color:#3572A5">Gemstones</span>](/HackerRank/Gemstones/Gemstones.py)
 [<span style="color:#3572A5">Grading Students</span>](/HackerRank/Grading%20Students/Grading%20Students.py)
+[<span style="color:#3572A5">Hackerland Radio Transmitters</span>](/HackerRank/Hackerland%20Radio%20Transmitters/Hackerland%20Radio%20Transmitters.py)
 [<span style="color:#3572A5">Hash Tables - Ransom Note</span>](/HackerRank/Hash%20Tables%20-%20Ransom%20Note/Hash%20Tables%20-%20Ransom%20Note.py)
+[<span style="color:#EFEFEF">Higher Than 75 Marks</span>](/HackerRank/Higher%20Than%2075%20Marks/Higher%20Than%2075%20Marks.sql)
+[<span style="color:#3572A5">Highest Value Palindrome</span>](/HackerRank/Highest%20Value%20Palindrome/Highest%20Value%20Palindrome.py)
+[<span style="color:#3572A5">Insertion Sort Advanced Analysis</span>](/HackerRank/Insertion%20Sort%20Advanced%20Analysis/Insertion%20Sort%20Advanced%20Analysis.py)
+[<span style="color:#3572A5">Iterables and Iterators</span>](/HackerRank/Iterables%20and%20Iterators/Iterables%20and%20Iterators.py)
 [<span style="color:#3572A5">itertools.combinations()</span>](/HackerRank/itertools.combinations%28%29/itertools.combinations%28%29.py)
 [<span style="color:#3572A5">itertools.combinations_with_replacement()</span>](/HackerRank/itertools.combinations_with_replacement%28%29/itertools.combinations_with_replacement%28%29.py)
 [<span style="color:#3572A5">itertools.permutations()</span>](/HackerRank/itertools.permutations%28%29/itertools.permutations%28%29.py)
 [<span style="color:#3572A5">itertools.product()</span>](/HackerRank/itertools.product%28%29/itertools.product%28%29.py)
+[<span style="color:#EFEFEF">Japanese Cities' Attributes</span>](/HackerRank/Japanese%20Cities%27%20Attributes/Japanese%20Cities%27%20Attributes.sql)
+[<span style="color:#EFEFEF">Japanese Cities' Names</span>](/HackerRank/Japanese%20Cities%27%20Names/Japanese%20Cities%27%20Names.sql)
 [<span style="color:#3572A5">Jumping on the Clouds</span>](/HackerRank/Jumping%20on%20the%20Clouds/Jumping%20on%20the%20Clouds.py)
 [<span style="color:#3572A5">Kangaroo</span>](/HackerRank/Kangaroo/Kangaroo.py)
 [<span style="color:#3572A5">Lily's Homework</span>](/HackerRank/Lily%27s%20Homework/Lily%27s%20Homework.py)
@@ -1156,8 +1219,10 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">Lists</span>](/HackerRank/Lists/Lists.py)
 [<span style="color:#3572A5">Loops</span>](/HackerRank/Loops/Loops.py)
 [<span style="color:#3572A5">Mark and Toys</span>](/HackerRank/Mark%20and%20Toys/Mark%20and%20Toys.py)
+[<span style="color:#3572A5">Maximize It!</span>](/HackerRank/Maximize%20It%21/Maximize%20It%21.py)
 [<span style="color:#3572A5">Counting Inversions</span>](/HackerRank/Merge%20Sort%20Counting%20Inversions/Merge%20Sort%20Counting%20Inversions.py)
 [<span style="color:#3572A5">Mini - Max Sum</span>](/HackerRank/Mini-Max%20Sum/Mini-Max%20Sum.py)
+[<span style="color:#3572A5">Mod Divmod</span>](/HackerRank/Mod%20Divmod/Mod%20Divmod.py)
 [<span style="color:#3572A5">Mutations</span>](/HackerRank/Mutations/Mutations.py)
 [<span style="color:#3572A5">Nested Lists</span>](/HackerRank/Nested%20Lists/Nested%20Lists.py)
 [<span style="color:#3572A5">Plus Minus</span>](/HackerRank/Plus%20Minus/Plus%20Minus.py)
@@ -1166,7 +1231,11 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">Division</span>](/HackerRank/Python%20Division/Python%20Division.py)
 [<span style="color:#3572A5">Python If - Else</span>](/HackerRank/Python%20If-Else/Python%20If-Else.py)
 [<span style="color:#3572A5">Repeated String</span>](/HackerRank/Repeated%20String/Repeated%20String.py)
+[<span style="color:#EFEFEF">Revising the Select Query I</span>](/HackerRank/Revising%20the%20Select%20Query%20I/Revising%20the%20Select%20Query%20I.sql)
+[<span style="color:#EFEFEF">Revising the Select Query II</span>](/HackerRank/Revising%20the%20Select%20Query%20II/Revising%20the%20Select%20Query%20II.sql)
 [<span style="color:#3572A5">Say "Hello, World!" With Python</span>](/HackerRank/Say%20Hello%2C%20World%21%20With%20Python/Say%20Hello%2C%20World%21%20With%20Python.py)
+[<span style="color:#EFEFEF">Select All</span>](/HackerRank/Select%20All/Select%20All.sql)
+[<span style="color:#EFEFEF">Select By ID</span>](/HackerRank/Select%20By%20ID/Select%20By%20ID.sql)
 [<span style="color:#3572A5">Sherlock and Anagrams</span>](/HackerRank/Sherlock%20and%20Anagrams/Sherlock%20and%20Anagrams.py)
 [<span style="color:#3572A5">Sherlock and the Valid String</span>](/HackerRank/Sherlock%20and%20the%20Valid%20String/Sherlock%20and%20the%20Valid%20String.py)
 [<span style="color:#3572A5">The Tom and Jerry Game!</span>](/HackerRank/Simple%20Array%20Sum/Simple%20Array%20Sum.py)
@@ -1181,9 +1250,23 @@ The repository of solutions to various problems from coding challenge websites. 
 [<span style="color:#3572A5">sWAP cASE</span>](/HackerRank/sWAP%20cASE/sWAP%20cASE.py)
 [<span style="color:#3572A5">Text Alignment</span>](/HackerRank/Text%20Alignment/Text%20Alignment.py)
 [<span style="color:#3572A5">Text Wrap</span>](/HackerRank/Text%20Wrap/Text%20Wrap.py)
+[<span style="color:#3572A5">The Love - Letter Mystery</span>](/HackerRank/The%20Love-Letter%20Mystery/The%20Love-Letter%20Mystery.py)
 [<span style="color:#3572A5">Time Conversion</span>](/HackerRank/Time%20Conversion/Time%20Conversion.py)
+[<span style="color:#3572A5">Triangle Quest 2</span>](/HackerRank/Triangle%20Quest%202/Triangle%20Quest%202.py)
 [<span style="color:#3572A5">Tuples</span>](/HackerRank/Tuples/Tuples.py)
 [<span style="color:#3572A5">Two Strings</span>](/HackerRank/Two%20Strings/Two%20Strings.py)
+[<span style="color:#EFEFEF">Type of Triangle</span>](/HackerRank/Type%20of%20Triangle/Type%20of%20Triangle.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 1</span>](/HackerRank/Weather%20Observation%20Station%201/Weather%20Observation%20Station%201.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 10</span>](/HackerRank/Weather%20Observation%20Station%2010/Weather%20Observation%20Station%2010.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 11</span>](/HackerRank/Weather%20Observation%20Station%2011/Weather%20Observation%20Station%2011.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 12</span>](/HackerRank/Weather%20Observation%20Station%2012/Weather%20Observation%20Station%2012.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 3</span>](/HackerRank/Weather%20Observation%20Station%203/Weather%20Observation%20Station%203.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 4</span>](/HackerRank/Weather%20Observation%20Station%204/Weather%20Observation%20Station%204.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 5</span>](/HackerRank/Weather%20Observation%20Station%205/Weather%20Observation%20Station%205.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 6</span>](/HackerRank/Weather%20Observation%20Station%206/Weather%20Observation%20Station%206.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 7</span>](/HackerRank/Weather%20Observation%20Station%207/Weather%20Observation%20Station%207.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 8</span>](/HackerRank/Weather%20Observation%20Station%208/Weather%20Observation%20Station%208.sql)
+[<span style="color:#EFEFEF">Weather Observation Station 9</span>](/HackerRank/Weather%20Observation%20Station%209/Weather%20Observation%20Station%209.sql)
 [<span style="color:#3572A5">What's Your Name?</span>](/HackerRank/What%27s%20Your%20Name/What%27s%20Your%20Name.py)
 [<span style="color:#3572A5">Write a function</span>](/HackerRank/Write%20a%20function/Write%20a%20function.py)
 ### SPOJ

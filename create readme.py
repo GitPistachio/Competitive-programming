@@ -119,6 +119,8 @@ def getLangFromFileExtension(file_extension):
         return "c++"
     elif file_extension == ".bf":
         return "brainfuck"
+    elif file_extension == ".sql":
+        return "sql"
 
 
 def getProblems():

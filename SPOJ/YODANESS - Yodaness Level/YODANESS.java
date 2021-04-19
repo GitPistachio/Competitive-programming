@@ -5,7 +5,7 @@
 * Date created : 2019-06-01
 * Description  :
 * Status       : Accepted (23863331)
-* Tags         : java, fast I/O, merge sort, inverse count, sorting, map
+* Tags         : java, fast I/O, merge sort, inversions count, sorting, map
 * Comment      : The main algorith is the same as in INVCNT
 */
 

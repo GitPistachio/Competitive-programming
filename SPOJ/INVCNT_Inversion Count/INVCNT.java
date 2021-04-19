@@ -5,7 +5,7 @@
 * Date created : 2019-02-08
 * Description  :
 * Status       : Accepted (23196092)
-* Tags         : java, sorting, merge sort, inversion count
+* Tags         : java, sorting, merge sort, inversions count
 * Comment      :
 */
 
